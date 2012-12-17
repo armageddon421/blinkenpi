@@ -31,17 +31,18 @@ int main(void){
 
 	while(42){
 		
-		for(i=0;i<LED_NUM/5;i++){
+		for(i=0;i<LED_NUM;i++){
 			led_set(i,0,0,0);	//245-152-157
-		}	
+		}
+		update();
+		usleep(100000);
+
 		for(i=0;i<LED_NUM;i+=1){
-			led_set(i,(sin(i*5.0+t/40.0)+1.0)*8.0,   (sin(i*8.0+t/30.0)+1.0)*8.0, ((i+t)%41 == 0 || (i+t)%39 == 0)?127:0);	
+			led_set(i,127,127,127);	
 			
 		}
 		update();
-		t++;
-		//if(t>=10) t=0;
-		usleep(1000);
+		usleep(2000);
 	}
 
 }

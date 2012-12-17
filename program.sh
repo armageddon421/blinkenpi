@@ -3,7 +3,7 @@
 ./blinken29 &
 sleep 7
 killall blinken29
-./blinkenpi &
+./blinkenflash &
 sleep 13
-killall blinkenpi
+killall blinkenflash
 ./program.sh
