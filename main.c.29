@@ -1,0 +1,79 @@
+
+
+#include <stdio.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <fcntl.h>
+#include <sys/ioctl.h>
+#include <linux/spi/spidev.h>
+#include <string.h>
+#include <math.h>
+
+#include "rgblib.h"
+#include "font.h"
+
+void draw_char(unsigned int xo, char c);
+void setpixel(int x, int y, unsigned char r, unsigned char g, unsigned char b);
+
+
+unsigned int width;
+
+int i;
+
+unsigned int ctr;
+
+int main(void){
+	
+	width = 40;
+	ctr = 0;
+
+	spi_init();	
+		
+	char text[] = "29c3";
+
+	while(42){
+		unsigned int tctr = 0;
+		while (text[tctr]){
+			draw_char((-ctr) + tctr*5,text[tctr]);
+			tctr++;
+		}	
+			
+		update();
+		
+		
+		ctr++;
+		//if (strlen(text)*4<width){
+		//	if (ctr > width-1) ctr = 0;
+		//}
+		//else{
+			//if (ctr > strlen(text)*4 + width) ctr = 0;
+		//}
+		usleep(30000);
+	}
+}
+
+
+void draw_char(unsigned int xo, char c){
+	int ix, iy;
+	for(iy=0;iy<5;iy++){
+		for(ix=0;ix<5;ix++){
+			if(ix+xo < width | 1){
+				unsigned char active = font[c][iy] & (1<<(ix+4));
+				if(active >1) active = 1;
+				setpixel(ix+xo,iy,active*(c*c)%127,active*(5*c)%127,0);
+				//printf("%d",active);
+			}	
+		}
+		//printf("\n");
+	}
+}
+
+void setpixel(int x, int y, unsigned char r, unsigned char g, unsigned char b){
+	
+	unsigned int pos = y*width+(x%width);
+	if (pos < LED_NUM){
+		led_set(pos, r, g, b);
+	}
+}
+

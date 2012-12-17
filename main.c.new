@@ -1,0 +1,48 @@
+
+
+#include <stdio.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <fcntl.h>
+#include <sys/ioctl.h>
+#include <linux/spi/spidev.h>
+#include <string.h>
+#include <math.h>
+
+#include "rgblib.h"
+
+
+void setpixel(unsigned int x, unsigned int y, unsigned char r, unsigned char g, unsigned char b);
+
+
+unsigned int width;
+
+int i;
+
+int main(void){
+	
+	width = 10;
+
+
+	spi_init();	
+		
+	int i;
+	for(i=0;i<200;i++){
+		setpixel(9,i,32,0,0);
+		led_set(i,20,0,0);	
+		
+	}
+	update();
+
+}
+
+
+void setpixel(unsigned int x, unsigned int y, unsigned char r, unsigned char g, unsigned char b){
+	
+	unsigned int pos = y*width+(x%width);
+	if (pos < LED_NUM){
+		led_set(pos, r, g, b);
+	}
+}
+
