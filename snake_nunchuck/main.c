@@ -549,7 +549,6 @@ void addscore(int score){
 		fprintf(scorefile, "%s%d\n", names[i], scores[i]);
 		
 		sprintf(buf, "%s%d\n", names[i], scores[i]);
-		dlog(buf);
 	}	
 	
 	
@@ -851,12 +850,12 @@ void loose2(){
 	effect_reset();
 	int j;
 	for(j=0;j<snakelen*5+50; j++){
-		if(j%5==0 && j<snakelen*5){
-			effect_create(EFFECT_TYPE_STROBE , snake[j/5], -63-32*(sin(j/5)+1),0,-32*(sin(j/5+3.14159)+1), 2, j, 30); 
-			effect_create(EFFECT_TYPE_FADEIN , snake[j/5], -63-32*(sin(j/5)+1),0,-32*(sin(j/5+3.14159)+1), 2, j, 30); 
-			effect_create(EFFECT_TYPE_DELAY , snake[j/5], -63-32*(sin(j/5)+1),0,-32*(sin(j/5+3.14159)+1), 2, j+30, snakelen*5+50); 
-		}
 		snake_draw(1);
+		if(j%5==0 && j<snakelen*5){
+			effect_create(EFFECT_TYPE_STROBE , snake[j/5], -buffer[snake[j/5]*3],0, -buffer[snake[j/5]*3+2], 2, j, 30); 
+			effect_create(EFFECT_TYPE_FADEIN , snake[j/5], -buffer[snake[j/5]*3],0, -buffer[snake[j/5]*3+2], 2, j, 30); 
+			effect_create(EFFECT_TYPE_DELAY , snake[j/5],  -buffer[snake[j/5]*3],0, -buffer[snake[j/5]*3+2], 2, j+30, snakelen*5+50); 
+		}
 		effect_draw(j);
 		blit();
 		update();
