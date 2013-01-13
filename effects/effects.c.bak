@@ -1,0 +1,226 @@
+
+#include <stdio.h>
+
+#include "../rgblib.h"
+#include "../screenlib.h"
+
+#include "effects.h"
+
+//private prototypes
+void effect_draw_delay(int time, int ef);
+void effect_draw_strobe(int time, int ef);
+void effect_draw_fadein(int time, int ef);
+void effect_draw_fadeout(int time, int ef);
+int effect_create_explosion_plus(int pos, int red, int green, int blue, int parameter, int time, int duration);
+int effect_create_explosion_x(int pos, int red, int green, int blue, int parameter, int time, int duration);
+
+
+extern unsigned char buffer[LED_NUM];
+
+struct effect eflist[EFFECT_BUFSIZE];
+
+int i;
+
+void effect_init(){
+
+
+}
+
+
+int effect_create(int type, int pos, int red, int green, int blue, int parameter, int time, int duration){
+	printf(" %d %d %d %d %d %d %d %d\r\n", type, pos, red ,green, blue, parameter, time ,duration);	
+	if ( type == EFFECT_TYPE_EXPLOSION ){
+		
+		return effect_create(EFFECT_TYPE_EXPLOSION_PLUS, pos, red, green, blue, parameter, time, duration)
+		 &&  effect_create(EFFECT_TYPE_EXPLOSION_X, pos, red, green, blue, parameter, time, duration);
+
+
+	}
+
+	if ( type == EFFECT_TYPE_EXPLOSION_PLUS ){
+		effect_create_explosion_x(pos, red, green, blue, parameter, time, duration);
+	}
+	if ( type == EFFECT_TYPE_EXPLOSION_X ){
+		effect_create_explosion_x(pos, red, green, blue, parameter, time, duration);
+	}
+	
+	int i;	
+	for(i=0;i<EFFECT_BUFSIZE;i++){
+		if (!eflist[i].active){
+			eflist[i].active = 1;
+			eflist[i].type = type;
+			eflist[i].pos = pos;
+			eflist[i].red = red;
+			eflist[i].green = green;
+			eflist[i].blue = blue;
+			eflist[i].parameter = parameter;
+			eflist[i].starttime = time;
+			eflist[i].duration = duration;
+			return 0;
+		}
+	}
+	return 1;
+}
+
+int effect_draw(int time){
+	for (i=0;i<EFFECT_BUFSIZE;i++){
+		if(eflist[i].active){
+			switch(eflist[i].type){
+				case(EFFECT_TYPE_DELAY):
+					effect_draw_delay(time, i);
+					break;
+				case(EFFECT_TYPE_STROBE):
+					effect_draw_strobe(time, i);
+					break;
+				case(EFFECT_TYPE_FADEIN):
+					effect_draw_fadein(time, i);
+					break;
+				case(EFFECT_TYPE_FADEOUT):
+					effect_draw_fadeout(time, i);
+					break;
+				
+				
+				
+			}
+		}
+	}
+	
+}
+
+void effect_draw_delay(int time, int ef){
+
+	if( time >= eflist[ef].starttime && time < eflist[ef].starttime + eflist[ef].duration){
+		if(eflist[ef].pos < 0 || eflist[ef].pos >= LED_NUM){
+			eflist[ef].active = 0;
+			return;
+		}
+		
+		buffer[eflist[ef].pos*3 + 0] += eflist[ef].red;	
+		buffer[eflist[ef].pos*3 + 1] += eflist[ef].green;	
+		buffer[eflist[ef].pos*3 + 2] += eflist[ef].blue;	
+		
+	}
+	else if (time >= eflist[ef].starttime + eflist[ef].duration){
+		eflist[ef].active = 0;
+	}
+}
+
+void effect_draw_strobe(int time, int ef){
+	
+	if( time >= eflist[ef].starttime && time < eflist[ef].starttime + eflist[ef].duration){
+		if(eflist[ef].pos < 0 || eflist[ef].pos >= LED_NUM){
+			eflist[ef].active = 0;
+			return;
+		}
+		if ((time-eflist[ef].starttime)%(eflist[ef].parameter*2) < eflist[ef].parameter){	
+			buffer[eflist[ef].pos*3 + 0] += eflist[ef].red;	
+			buffer[eflist[ef].pos*3 + 1] += eflist[ef].green;	
+			buffer[eflist[ef].pos*3 + 2] += eflist[ef].blue;	
+		}	
+	}
+	else if (time >= eflist[ef].starttime + eflist[ef].duration){
+		eflist[ef].active = 0;
+	}
+}
+
+void effect_draw_fadein(int time, int ef){
+
+	if( time >= eflist[ef].starttime && time < eflist[ef].starttime + eflist[ef].duration){
+		if(eflist[ef].pos < 0 || eflist[ef].pos >= LED_NUM){
+			eflist[ef].active = 0;
+			return;
+		}
+		double f = (time-eflist[ef].starttime)/(double)eflist[ef].duration;	
+		buffer[eflist[ef].pos*3 + 0] += eflist[ef].red*f;	
+		buffer[eflist[ef].pos*3 + 1] += eflist[ef].green*f;	
+		buffer[eflist[ef].pos*3 + 2] += eflist[ef].blue*f;	
+		
+	}
+	else if (time >= eflist[ef].starttime + eflist[ef].duration){
+		eflist[ef].active = 0;
+	}
+}
+
+void effect_draw_fadeout(int time, int ef){
+
+	if( time >= eflist[ef].starttime && time < eflist[ef].starttime + eflist[ef].duration){
+		if(eflist[ef].pos < 0 || eflist[ef].pos >= LED_NUM){
+			eflist[ef].active = 0;
+			return;
+		}
+		double f = 1.0 - (time-eflist[ef].starttime)/(double)eflist[ef].duration;	
+		buffer[eflist[ef].pos*3 + 0] += eflist[ef].red*f;	
+		buffer[eflist[ef].pos*3 + 1] += eflist[ef].green*f;	
+		buffer[eflist[ef].pos*3 + 2] += eflist[ef].blue*f;	
+		
+	}
+	else if (time >= eflist[ef].starttime + eflist[ef].duration){
+		eflist[ef].active = 0;
+	}
+}
+
+
+int effect_create_explosion_plus(int pos, int red, int green, int blue, int parameter, int time, int duration){
+	
+	int iter_duration = duration/(parameter+1);
+	int i;
+	for (i=1;i<parameter+1;i++){
+		effect_create(EFFECT_TYPE_STROBE, pos+i, red, green, blue, 1, time+iter_duration*(i-1), iter_duration*2); 
+		effect_create(EFFECT_TYPE_FADEOUT, pos+i, -red, -green, -blue, 0, time+iter_duration*(i-1), iter_duration); 
+		effect_create(EFFECT_TYPE_FADEIN, pos+i, -red, -green, -blue, 0, time+iter_duration*(i), iter_duration); 
+		
+		effect_create(EFFECT_TYPE_STROBE, pos-i, red, green, blue, 1, time+iter_duration*(i-1), iter_duration*2); 
+		effect_create(EFFECT_TYPE_FADEOUT, pos-i, -red, -green, -blue, 0, time+iter_duration*(i-1), iter_duration); 
+		effect_create(EFFECT_TYPE_FADEIN, pos-i, -red, -green, -blue, 0, time+iter_duration*(i), iter_duration); 
+
+		effect_create(EFFECT_TYPE_STROBE, pos+WIDTH*i, red, green, blue, 1, time+iter_duration*(i-1), iter_duration*2); 
+		effect_create(EFFECT_TYPE_FADEOUT, pos+WIDTH*i, -red, -green, -blue, 0, time+iter_duration*(i-1), iter_duration); 
+		effect_create(EFFECT_TYPE_FADEIN, pos+WIDTH*i, -red, -green, -blue, 0, time+iter_duration*(i), iter_duration); 
+		
+		effect_create(EFFECT_TYPE_STROBE, pos-WIDTH*i, red, green, blue, 1, time+iter_duration*(i-1), iter_duration*2); 
+		effect_create(EFFECT_TYPE_FADEOUT, pos-WIDTH*i, -red, -green, -blue, 0, time+iter_duration*(i-1), iter_duration); 
+		effect_create(EFFECT_TYPE_FADEIN, pos-WIDTH*i, -red, -green, -blue, 0, time+iter_duration*(i), iter_duration); 
+	}
+}
+
+int effect_create_explosion_x(int pos, int red, int green, int blue, int parameter, int time, int duration){
+	int iter_duration = duration/(parameter+1);
+	int i;
+	for (i=1;i<parameter+1;i++){
+		printf("%d", i);
+		effect_create(EFFECT_TYPE_STROBE, pos+i+WIDTH*i, red, green, blue, 1, time+iter_duration*(i-1), iter_duration*2); 
+		printf("%d", i);
+		effect_create(EFFECT_TYPE_FADEOUT, pos+i+WIDTH*i, -red, -green, -blue, 0, time+iter_duration*(i-1), iter_duration); 
+		printf("%d", i);
+		effect_create(EFFECT_TYPE_FADEIN, pos+i+WIDTH*i, -red, -green, -blue, 0, time+iter_duration*(i), iter_duration); 
+		printf("%d", i);
+		
+		effect_create(EFFECT_TYPE_STROBE, pos-i+WIDTH*i, red, green, blue, 1, time+iter_duration*(i-1), iter_duration*2); 
+		printf("%d", i);
+		effect_create(EFFECT_TYPE_FADEOUT, pos-i+WIDTH*i, -red, -green, -blue, 0, time+iter_duration*(i-1), iter_duration); 
+		printf("%d", i);
+		effect_create(EFFECT_TYPE_FADEIN, pos-i+WIDTH*i, -red, -green, -blue, 0, time+iter_duration*(i), iter_duration); 
+		printf("%d", i);
+
+		effect_create(EFFECT_TYPE_STROBE, pos-i-WIDTH*i, red, green, blue, 1, time+iter_duration*(i-1), iter_duration*2); 
+		printf("%d", i);
+		effect_create(EFFECT_TYPE_FADEOUT, pos-i-WIDTH*i, -red, -green, -blue, 0, time+iter_duration*(i-1), iter_duration); 
+		printf("%d", i);
+		effect_create(EFFECT_TYPE_FADEIN, pos-i-WIDTH*i, -red, -green, -blue, 0, time+iter_duration*(i), iter_duration); 
+		printf("%d", i);
+		
+		effect_create(EFFECT_TYPE_STROBE, pos+i-WIDTH*i, red, green, blue, 1, time+iter_duration*(i-1), iter_duration*2); 
+		printf("%d", i);
+		effect_create(EFFECT_TYPE_FADEOUT, pos+i-WIDTH*i, -red, -green, -blue, 0, time+iter_duration*(i-1), iter_duration); 
+		printf("%d", i);
+		effect_create(EFFECT_TYPE_FADEIN, pos+i-WIDTH*i, -red, -green, -blue, 0, time+iter_duration*(i), iter_duration); 
+		printf("%d", i);
+	}
+}
+
+
+
+
+
+
+

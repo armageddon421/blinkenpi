@@ -1,0 +1,919 @@
+snake inited
+score: 2510, snakelen: 25, ctr: 2400, speed: 10
+snake inited
+time: 05.01.13 12:07:09, score: 2306, snakelen: 23, ctr: 1510, speed: 10
+snake inited
+time: 05.01.13 19:19:24, score: 6587, snakelen: 65, ctr: 7430, speed: 10
+time: 05.01.13 19:20:20, score: 2512, snakelen: 25, ctr: 2710, speed: 10
+time: 05.01.13 19:21:49, score: 2715, snakelen: 27, ctr: 3220, speed: 10
+time: 05.01.13 19:21:57, score: 300, snakelen: 3, ctr: 10, speed: 10
+time: 05.01.13 19:22:03, score: 300, snakelen: 3, ctr: 10, speed: 10
+time: 05.01.13 19:23:01, score: 3121, snakelen: 31, ctr: 3860, speed: 10
+time: 05.01.13 19:24:45, score: 4762, snakelen: 47, ctr: 7300, speed: 10
+time: 05.01.13 19:26:02, score: 3936, snakelen: 39, ctr: 5130, speed: 10
+time: 05.01.13 19:32:05, score: 300, snakelen: 3, ctr: 10, speed: 10
+time: 05.01.13 19:32:11, score: 300, snakelen: 3, ctr: 10, speed: 10
+time: 05.01.13 19:32:17, score: 300, snakelen: 3, ctr: 10, speed: 10
+time: 05.01.13 19:32:44, score: 2105, snakelen: 21, ctr: 1530, speed: 10
+snake inited
+time: 06.01.13 19:10:27, score: 1101, snakelen: 11, ctr: 770, speed: 10
+time: 06.01.13 19:12:04, score: 6777, snakelen: 67, ctr: 6340, speed: 10
+snake inited
+time: 06.01.13 19:20:07, score: 8244, snakelen: 81, ctr: 9790, speed: 10
+snake inited
+time: 06.01.13 20:14:33, score: 6002, snakelen: 59, ctr: 9590, speed: 10
+time: 06.01.13 20:26:22, score: 14757, snakelen: 141, ctr: 25660, speed: 10
+snake inited
+time: 06.01.13 20:30:09, score: 5954, snakelen: 59, ctr: 5060, speed: 10
+snake inited
+time: 06.01.13 21:06:08, score: 5548, snakelen: 55, ctr: 4810, speed: 10
+time: 06.01.13 21:08:07, score: 6997, snakelen: 69, ctr: 7810, speed: 10
+time: 06.01.13 21:10:59, score: 7202, snakelen: 71, ctr: 7920, speed: 10
+time: 06.01.13 21:12:39, score: 7276, snakelen: 72, ctr: 5880, speed: 10
+snake inited
+time: 06.01.13 21:13:09, score: 900, snakelen: 9, ctr: 330, speed: 10
+snake inited
+time: 06.01.13 21:21:35, score: 900, snakelen: 9, ctr: 390, speed: 10
+snake inited
+time: 07.01.13 17:15:34, score: 1608, snakelen: 16, ctr: 2800, speed: 10
+time: 07.01.13 17:15:59, score: 1302, snakelen: 13, ctr: 1140, speed: 10
+time: 07.01.13 17:18:34, score: 7851, snakelen: 77, ctr: 10850, speed: 10
+snake inited
+time: 07.01.13 18:41:47, score: 8268, snakelen: 81, ctr: 11460, speed: 10
+time: 07.01.13 18:42:40, score: 2111, snakelen: 21, ctr: 2980, speed: 10
+time: 07.01.13 18:46:05, score: 7701, snakelen: 75, ctr: 14760, speed: 10
+time: 07.01.13 18:46:37, score: 1705, snakelen: 17, ctr: 1890, speed: 10
+time: 07.01.13 18:49:07, score: 6523, snakelen: 64, ctr: 10600, speed: 10
+time: 07.01.13 18:50:47, score: 4960, snakelen: 49, ctr: 6830, speed: 10
+time: 07.01.13 18:52:45, score: 6187, snakelen: 61, ctr: 7870, speed: 10
+time: 07.01.13 18:54:46, score: 7208, snakelen: 71, ctr: 8400, speed: 10
+time: 07.01.13 18:55:40, score: 3422, snakelen: 34, ctr: 3600, speed: 10
+time: 07.01.13 18:59:21, score: 8332, snakelen: 81, ctr: 15800, speed: 10
+time: 07.01.13 18:59:49, score: 700, snakelen: 7, ctr: 770, speed: 10
+time: 07.01.13 19:00:20, score: 2408, snakelen: 24, ctr: 1870, speed: 10
+time: 07.01.13 19:24:09, score: 1103, snakelen: 11, ctr: 1770, speed: 10
+time: 07.01.13 21:36:12, score: 5560, snakelen: 55, ctr: 6090, speed: 10
+time: 07.01.13 21:36:44, score: 1505, snakelen: 15, ctr: 1890, speed: 10
+time: 07.01.13 21:38:28, score: 6179, snakelen: 61, ctr: 7200, speed: 10
+time: 07.01.13 21:39:32, score: 3929, snakelen: 39, ctr: 4220, speed: 10
+time: 07.01.13 21:41:36, score: 7818, snakelen: 77, ctr: 8490, speed: 10
+time: 07.01.13 21:43:51, score: 8034, snakelen: 79, ctr: 9380, speed: 10
+time: 07.01.13 21:46:18, score: 7025, snakelen: 69, ctr: 10010, speed: 10
+time: 07.01.13 22:28:56, score: 500, snakelen: 5, ctr: 950, speed: 10
+time: 07.01.13 22:29:33, score: 1707, snakelen: 17, ctr: 2310, speed: 10
+snake inited
+time: 08.01.13 01:51:48, score: 4127, snakelen: 41, ctr: 3710, speed: 10
+time: 08.01.13 01:54:28, score: 8267, snakelen: 81, ctr: 11410, speed: 10
+time: 08.01.13 01:57:22, score: 8688, snakelen: 85, ctr: 12200, speed: 10
+time: 08.01.13 01:58:39, score: 4946, snakelen: 49, ctr: 5230, speed: 10
+time: 08.01.13 02:02:11, score: 9764, snakelen: 95, ctr: 15310, speed: 10
+time: 08.01.13 02:05:07, score: 7263, snakelen: 71, ctr: 12630, speed: 10
+time: 08.01.13 02:07:37, score: 7848, snakelen: 77, ctr: 10610, speed: 10
+snake inited
+time: 08.01.13 03:54:13, score: 8238, snakelen: 81, ctr: 9440, speed: 10
+time: 08.01.13 03:58:07, score: 10607, snakelen: 103, ctr: 16410, speed: 10
+time: 08.01.13 05:16:15, score: 2735, snakelen: 19, ctr: 241930, speed: 10
+time: 08.01.13 05:18:31, score: 7427, snakelen: 73, ctr: 9600, speed: 10
+time: 08.01.13 05:20:51, score: 7634, snakelen: 75, ctr: 9830, speed: 10
+time: 08.01.13 05:23:32, score: 7860, snakelen: 77, ctr: 11440, speed: 10
+time: 08.01.13 05:25:50, score: 7429, snakelen: 73, ctr: 9760, speed: 10
+time: 08.01.13 05:30:13, score: 6725, snakelen: 65, ctr: 19110, speed: 10
+time: 08.01.13 05:32:00, score: 6182, snakelen: 61, ctr: 7430, speed: 10
+time: 08.01.13 05:37:20, score: 14061, snakelen: 135, ctr: 22880, speed: 10
+time: 08.01.13 06:08:29, score: 7846, snakelen: 77, ctr: 10500, speed: 10
+time: 08.01.13 06:10:16, score: 5977, snakelen: 59, ctr: 7210, speed: 10
+time: 08.01.13 06:11:52, score: 4958, snakelen: 49, ctr: 6590, speed: 10
+time: 08.01.13 06:15:25, score: 8737, snakelen: 85, ctr: 15380, speed: 10
+time: 08.01.13 06:21:15, score: 13703, snakelen: 131, ctr: 25360, speed: 10
+time: 08.01.13 06:23:09, score: 5984, snakelen: 59, ctr: 7850, speed: 10
+time: 08.01.13 06:24:37, score: 4346, snakelen: 43, ctr: 5970, speed: 10
+time: 08.01.13 06:28:13, score: 10175, snakelen: 99, ctr: 15280, speed: 10
+time: 08.01.13 06:30:39, score: 6819, snakelen: 67, ctr: 9790, speed: 10
+time: 08.01.13 06:41:31, score: 21176, snakelen: 195, ctr: 47290, speed: 10
+snake inited
+time: 08.01.13 16:01:26, score: 5356, snakelen: 53, ctr: 5910, speed: 10
+time: 08.01.13 16:06:19, score: 11319, snakelen: 109, ctr: 21190, speed: 10
+time: 08.01.13 16:08:16, score: 6189, snakelen: 61, ctr: 8090, speed: 10
+time: 08.01.13 16:09:06, score: 3118, snakelen: 31, ctr: 3250, speed: 10
+time: 08.01.13 16:12:38, score: 10375, snakelen: 101, ctr: 15010, speed: 10
+time: 08.01.13 16:15:04, score: 7639, snakelen: 75, ctr: 10230, speed: 10
+time: 08.01.13 16:19:07, score: 6397, snakelen: 63, ctr: 8470, speed: 10
+time: 08.01.13 16:21:23, score: 6816, snakelen: 67, ctr: 9590, speed: 10
+time: 08.01.13 16:24:53, score: 9144, snakelen: 89, ctr: 15140, speed: 10
+time: 08.01.13 16:31:04, score: 13951, snakelen: 133, ctr: 26940, speed: 10
+time: 08.01.13 16:34:52, score: 8548, snakelen: 83, ctr: 16490, speed: 10
+time: 08.01.13 16:39:41, score: 12142, snakelen: 117, ctr: 20810, speed: 10
+time: 08.01.13 16:41:53, score: 7218, snakelen: 71, ctr: 9210, speed: 10
+time: 08.01.13 16:44:28, score: 7446, snakelen: 73, ctr: 11010, speed: 10
+time: 08.01.13 16:49:16, score: 11719, snakelen: 113, ctr: 20420, speed: 10
+time: 08.01.13 16:51:03, score: 5568, snakelen: 55, ctr: 6890, speed: 10
+time: 08.01.13 16:52:01, score: 3524, snakelen: 35, ctr: 3870, speed: 10
+time: 08.01.13 16:53:35, score: 5767, snakelen: 57, ctr: 6520, speed: 10
+time: 08.01.13 16:54:23, score: 3318, snakelen: 33, ctr: 3090, speed: 10
+time: 08.01.13 16:55:49, score: 5357, snakelen: 53, ctr: 5920, speed: 10
+time: 08.01.13 16:56:08, score: 1302, snakelen: 13, ctr: 1020, speed: 10
+time: 08.01.13 16:56:39, score: 2508, snakelen: 25, ctr: 1790, speed: 10
+time: 08.01.13 16:57:48, score: 4739, snakelen: 47, ctr: 4660, speed: 10
+time: 08.01.13 16:58:53, score: 4333, snakelen: 43, ctr: 4330, speed: 10
+time: 08.01.13 17:01:36, score: 8680, snakelen: 85, ctr: 11650, speed: 10
+time: 08.01.13 17:05:05, score: 10166, snakelen: 99, ctr: 14820, speed: 10
+time: 08.01.13 17:19:06, score: 5766, snakelen: 57, ctr: 6390, speed: 10
+time: 08.01.13 17:19:17, score: 900, snakelen: 9, ctr: 410, speed: 10
+time: 08.01.13 17:20:51, score: 5159, snakelen: 51, ctr: 6460, speed: 10
+time: 08.01.13 17:25:19, score: 11899, snakelen: 115, ctr: 19110, speed: 10
+time: 08.01.13 17:28:19, score: 9105, snakelen: 89, ctr: 12720, speed: 10
+time: 08.01.13 17:29:35, score: 4945, snakelen: 49, ctr: 5160, speed: 10
+time: 08.01.13 17:45:03, score: 27520, snakelen: 245, ctr: 67810, speed: 10
+snake inited
+snake inited
+time: 08.01.13 18:07:00, score: 3923, snakelen: 39, ctr: 3270, speed: 10
+snake inited
+time: 08.01.13 19:14:58, score: 6168, snakelen: 61, ctr: 6190, speed: 10
+snake inited
+time: 08.01.13 19:22:44, score: 7214, snakelen: 71, ctr: 8900, speed: 10
+time: 08.01.13 19:26:19, score: 8926, snakelen: 87, ctr: 14340, speed: 10
+time: 08.01.13 19:27:43, score: 4946, snakelen: 49, ctr: 5270, speed: 10
+time: 08.01.13 19:30:10, score: 8444, snakelen: 83, ctr: 9560, speed: 10
+time: 08.01.13 19:32:18, score: 6801, snakelen: 67, ctr: 8320, speed: 10
+time: 08.01.13 19:36:42, score: 10628, snakelen: 103, ctr: 17570, speed: 10
+time: 08.01.13 19:38:42, score: 6794, snakelen: 67, ctr: 7730, speed: 10
+time: 08.01.13 19:44:49, score: 15566, snakelen: 149, ctr: 24620, speed: 10
+time: 08.01.13 19:46:32, score: 5161, snakelen: 51, ctr: 6610, speed: 10
+time: 08.01.13 19:46:43, score: 500, snakelen: 5, ctr: 330, speed: 10
+time: 08.01.13 19:46:58, score: 1101, snakelen: 11, ctr: 670, speed: 10
+time: 08.01.13 19:49:27, score: 7428, snakelen: 73, ctr: 9700, speed: 10
+time: 08.01.13 20:02:15, score: 4004, snakelen: 37, ctr: 45310, speed: 10
+time: 08.01.13 21:01:04, score: 9959, snakelen: 97, ctr: 14730, speed: 10
+time: 08.01.13 21:03:18, score: 6805, snakelen: 67, ctr: 8700, speed: 10
+time: 08.01.13 21:06:36, score: 9519, snakelen: 93, ctr: 12990, speed: 10
+time: 08.01.13 21:09:15, score: 7641, snakelen: 75, ctr: 10380, speed: 10
+time: 08.01.13 21:11:28, score: 7211, snakelen: 71, ctr: 8620, speed: 10
+time: 08.01.13 21:17:36, score: 8691, snakelen: 85, ctr: 12380, speed: 10
+time: 08.01.13 21:18:59, score: 4946, snakelen: 49, ctr: 5170, speed: 10
+time: 08.01.13 21:19:45, score: 2510, snakelen: 25, ctr: 2230, speed: 10
+time: 08.01.13 22:36:44, score: 500, snakelen: 5, ctr: 590, speed: 10
+time: 08.01.13 22:38:02, score: 2523, snakelen: 25, ctr: 5170, speed: 10
+time: 08.01.13 22:38:44, score: 1707, snakelen: 17, ctr: 2520, speed: 10
+time: 08.01.13 22:39:22, score: 1506, snakelen: 15, ctr: 2280, speed: 10
+time: 08.01.13 22:40:40, score: 4137, snakelen: 41, ctr: 5000, speed: 10
+time: 08.01.13 22:53:04, score: 8680, snakelen: 85, ctr: 11670, speed: 10
+time: 08.01.13 22:56:59, score: 10607, snakelen: 103, ctr: 16400, speed: 10
+time: 08.01.13 22:58:36, score: 5160, snakelen: 51, ctr: 6520, speed: 10
+time: 08.01.13 23:03:21, score: 13160, snakelen: 127, ctr: 19940, speed: 10
+time: 08.01.13 23:05:24, score: 7207, snakelen: 71, ctr: 8350, speed: 10
+snake inited
+time: 09.01.13 17:13:14, score: 8016, snakelen: 79, ctr: 8130, speed: 10
+time: 09.01.13 17:28:39, score: 8024, snakelen: 79, ctr: 8690, speed: 10
+time: 09.01.13 17:30:00, score: 5757, snakelen: 57, ctr: 5500, speed: 10
+time: 09.01.13 17:30:45, score: 3719, snakelen: 37, ctr: 2870, speed: 10
+time: 09.01.13 17:32:53, score: 7418, snakelen: 73, ctr: 8960, speed: 10
+time: 09.01.13 17:33:53, score: 4532, snakelen: 45, ctr: 3950, speed: 10
+time: 09.01.13 17:35:19, score: 6063, snakelen: 60, ctr: 5810, speed: 10
+time: 09.01.13 17:40:07, score: 13900, snakelen: 134, ctr: 20540, speed: 10
+time: 09.01.13 17:46:06, score: 14343, snakelen: 137, ctr: 25850, speed: 10
+time: 09.01.13 17:58:56, score: 17933, snakelen: 167, ctr: 40630, speed: 10
+time: 09.01.13 17:59:11, score: 901, snakelen: 9, ctr: 650, speed: 10
+time: 09.01.13 18:00:48, score: 5161, snakelen: 51, ctr: 6660, speed: 10
+time: 09.01.13 18:01:05, score: 901, snakelen: 9, ctr: 820, speed: 10
+time: 09.01.13 18:07:27, score: 15226, snakelen: 145, ctr: 27540, speed: 10
+time: 09.01.13 18:07:38, score: 700, snakelen: 7, ctr: 320, speed: 10
+time: 09.01.13 18:10:36, score: 8695, snakelen: 85, ctr: 12650, speed: 10
+time: 09.01.13 18:10:55, score: 1101, snakelen: 11, ctr: 930, speed: 10
+time: 09.01.13 18:11:45, score: 3520, snakelen: 35, ctr: 3250, speed: 10
+time: 09.01.13 18:13:58, score: 8236, snakelen: 81, ctr: 9270, speed: 10
+time: 09.01.13 18:15:03, score: 4737, snakelen: 47, ctr: 4360, speed: 10
+time: 09.01.13 18:17:20, score: 8646, snakelen: 85, ctr: 9510, speed: 10
+time: 09.01.13 18:18:04, score: 4120, snakelen: 41, ctr: 2740, speed: 10
+time: 09.01.13 18:19:48, score: 6078, snakelen: 60, ctr: 7220, speed: 10
+time: 09.01.13 18:21:07, score: 6158, snakelen: 61, ctr: 5250, speed: 10
+time: 09.01.13 18:24:15, score: 10139, snakelen: 99, ctr: 13320, speed: 10
+time: 09.01.13 18:25:13, score: 3121, snakelen: 31, ctr: 3830, speed: 10
+time: 09.01.13 18:25:44, score: 2508, snakelen: 25, ctr: 1890, speed: 10
+time: 09.01.13 18:26:58, score: 4742, snakelen: 47, ctr: 4970, speed: 10
+snake inited
+time: 09.01.13 18:53:50, score: 2921, snakelen: 29, ctr: 4030, speed: 10
+time: 09.01.13 19:14:43, score: 1304, snakelen: 13, ctr: 1900, speed: 10
+time: 09.01.13 19:15:36, score: 3320, snakelen: 33, ctr: 3460, speed: 10
+time: 09.01.13 19:42:58, score: 3935, snakelen: 39, ctr: 5000, speed: 10
+time: 09.01.13 19:45:50, score: 3120, snakelen: 31, ctr: 3690, speed: 10
+time: 09.01.13 20:49:02, score: 2109, snakelen: 21, ctr: 2410, speed: 10
+time: 09.01.13 20:50:08, score: 4334, snakelen: 43, ctr: 4420, speed: 10
+time: 09.01.13 21:17:27, score: 2109, snakelen: 21, ctr: 2540, speed: 10
+time: 09.01.13 21:19:34, score: 4980, snakelen: 49, ctr: 9010, speed: 10
+time: 09.01.13 21:21:13, score: 4556, snakelen: 45, ctr: 6860, speed: 10
+time: 09.01.13 21:22:12, score: 3122, snakelen: 31, ctr: 3950, speed: 10
+time: 09.01.13 21:23:29, score: 3532, snakelen: 35, ctr: 5100, speed: 10
+time: 09.01.13 21:47:11, score: 7662, snakelen: 75, ctr: 11880, speed: 10
+time: 09.01.13 21:51:48, score: 12125, snakelen: 117, ctr: 19990, speed: 10
+time: 09.01.13 22:10:48, score: 4752, snakelen: 47, ctr: 6110, speed: 10
+time: 09.01.13 23:09:17, score: 3118, snakelen: 31, ctr: 3200, speed: 10
+time: 09.01.13 23:10:44, score: 5963, snakelen: 59, ctr: 5890, speed: 10
+time: 09.01.13 23:12:58, score: 8035, snakelen: 79, ctr: 9420, speed: 10
+time: 09.01.13 23:14:29, score: 5562, snakelen: 55, ctr: 6210, speed: 10
+time: 09.01.13 23:20:29, score: 15592, snakelen: 149, ctr: 25580, speed: 10
+time: 10.01.13 00:07:14, score: 20728, snakelen: 191, ctr: 46890, speed: 10
+time: 10.01.13 00:10:00, score: 8056, snakelen: 79, ctr: 10900, speed: 10
+time: 10.01.13 01:01:11, score: 4562, snakelen: 43, ctr: 33610, speed: 10
+time: 10.01.13 01:04:10, score: 8691, snakelen: 85, ctr: 12420, speed: 10
+time: 10.01.13 01:12:45, score: 10156, snakelen: 99, ctr: 14250, speed: 10
+time: 10.01.13 01:16:49, score: 8682, snakelen: 85, ctr: 11820, speed: 10
+time: 10.01.13 01:18:58, score: 5995, snakelen: 59, ctr: 8890, speed: 10
+time: 10.01.13 01:22:21, score: 8498, snakelen: 83, ctr: 13160, speed: 10
+time: 10.01.13 01:24:27, score: 4132, snakelen: 41, ctr: 4300, speed: 10
+time: 10.01.13 01:49:47, score: 14368, snakelen: 119, ctr: 114090, speed: 10
+time: 10.01.13 01:52:00, score: 5569, snakelen: 55, ctr: 6970, speed: 10
+time: 10.01.13 01:56:26, score: 8901, snakelen: 87, ctr: 12760, speed: 10
+time: 10.01.13 01:58:56, score: 4753, snakelen: 47, ctr: 6280, speed: 10
+time: 10.01.13 02:14:25, score: 3600, snakelen: 33, ctr: 50150, speed: 10
+time: 10.01.13 02:17:04, score: 7654, snakelen: 75, ctr: 11300, speed: 10
+time: 10.01.13 02:46:37, score: 10605, snakelen: 103, ctr: 16310, speed: 10
+time: 10.01.13 03:02:30, score: 11439, snakelen: 111, ctr: 16840, speed: 10
+time: 10.01.13 03:04:11, score: 5159, snakelen: 51, ctr: 6460, speed: 10
+time: 10.01.13 03:07:17, score: 7620, snakelen: 75, ctr: 8850, speed: 10
+time: 10.01.13 03:08:41, score: 5151, snakelen: 51, ctr: 5570, speed: 10
+time: 10.01.13 03:15:33, score: 13197, snakelen: 127, ctr: 21570, speed: 10
+time: 10.01.13 03:17:25, score: 4548, snakelen: 45, ctr: 5920, speed: 10
+time: 10.01.13 03:18:51, score: 3335, snakelen: 33, ctr: 5930, speed: 10
+time: 10.01.13 03:20:13, score: 3131, snakelen: 31, ctr: 5640, speed: 10
+time: 10.01.13 03:21:04, score: 2213, snakelen: 22, ctr: 3270, speed: 10
+time: 10.01.13 04:59:42, score: 5602, snakelen: 39, ctr: 240100, speed: 10
+time: 10.01.13 05:07:27, score: 16659, snakelen: 157, ctr: 33600, speed: 10
+time: 10.01.13 05:27:28, score: 13568, snakelen: 117, ctr: 87820, speed: 10
+time: 10.01.13 05:33:09, score: 13453, snakelen: 129, ctr: 23600, speed: 10
+time: 10.01.13 05:38:53, score: 11948, snakelen: 115, ctr: 21460, speed: 10
+time: 10.01.13 05:43:20, score: 11863, snakelen: 115, ctr: 17400, speed: 10
+time: 10.01.13 06:13:17, score: 8689, snakelen: 85, ctr: 12270, speed: 10
+time: 10.01.13 06:54:25, score: 8936, snakelen: 87, ctr: 14960, speed: 10
+time: 10.01.13 06:58:15, score: 9371, snakelen: 91, ctr: 16430, speed: 10
+time: 10.01.13 07:00:01, score: 5573, snakelen: 55, ctr: 7340, speed: 10
+time: 10.01.13 07:04:56, score: 13187, snakelen: 127, ctr: 21110, speed: 10
+time: 10.01.13 07:31:53, score: 7029, snakelen: 69, ctr: 10320, speed: 10
+time: 10.01.13 07:38:58, score: 16361, snakelen: 155, ctr: 30570, speed: 10
+time: 10.01.13 07:44:22, score: 12410, snakelen: 119, ctr: 23590, speed: 10
+time: 10.01.13 07:47:31, score: 7991, snakelen: 78, ctr: 13510, speed: 10
+time: 10.01.13 07:49:19, score: 3344, snakelen: 33, ctr: 7410, speed: 10
+time: 10.01.13 07:52:48, score: 9143, snakelen: 89, ctr: 15080, speed: 10
+time: 10.01.13 08:06:51, score: 6597, snakelen: 65, ctr: 8220, speed: 10
+time: 10.01.13 08:16:17, score: 19018, snakelen: 177, ctr: 40960, speed: 10
+snake inited
+time: 10.01.13 16:14:39, score: 18599, snakelen: 171, ctr: 48220, speed: 10
+time: 10.01.13 16:20:18, score: 12847, snakelen: 123, ctr: 24490, speed: 10
+time: 10.01.13 16:29:16, score: 14626, snakelen: 139, ctr: 28740, speed: 10
+time: 10.01.13 16:35:13, score: 12671, snakelen: 121, ctr: 25970, speed: 10
+time: 10.01.13 16:38:53, score: 10800, snakelen: 105, ctr: 15740, speed: 10
+time: 10.01.13 16:40:56, score: 7210, snakelen: 71, ctr: 8550, speed: 10
+time: 10.01.13 16:42:55, score: 5378, snakelen: 53, ctr: 8170, speed: 10
+time: 10.01.13 16:52:24, score: 19895, snakelen: 185, ctr: 41480, speed: 10
+time: 10.01.13 17:00:31, score: 15436, snakelen: 145, ctr: 35510, speed: 10
+time: 10.01.13 17:01:44, score: 701, snakelen: 7, ctr: 1450, speed: 10
+time: 10.01.13 17:04:46, score: 3333, snakelen: 33, ctr: 5540, speed: 10
+time: 10.01.13 17:05:56, score: 2723, snakelen: 27, ctr: 4760, speed: 10
+time: 10.01.13 17:24:37, score: 10255, snakelen: 89, ctr: 83760, speed: 10
+time: 10.01.13 17:32:31, score: 500, snakelen: 5, ctr: 650, speed: 10
+time: 10.01.13 17:32:42, score: 400, snakelen: 4, ctr: 340, speed: 10
+time: 10.01.13 17:32:51, score: 500, snakelen: 5, ctr: 300, speed: 10
+time: 10.01.13 17:33:02, score: 500, snakelen: 5, ctr: 460, speed: 10
+time: 10.01.13 17:33:12, score: 500, snakelen: 5, ctr: 320, speed: 10
+time: 10.01.13 17:33:22, score: 400, snakelen: 4, ctr: 340, speed: 10
+time: 10.01.13 17:33:31, score: 500, snakelen: 5, ctr: 240, speed: 10
+time: 10.01.13 17:33:51, score: 500, snakelen: 5, ctr: 950, speed: 10
+time: 10.01.13 17:34:00, score: 500, snakelen: 5, ctr: 230, speed: 10
+time: 10.01.13 19:12:16, score: 3547, snakelen: 35, ctr: 7420, speed: 10
+time: 10.01.13 20:24:16, score: 3323, snakelen: 33, ctr: 3870, speed: 10
+time: 10.01.13 20:26:01, score: 5573, snakelen: 55, ctr: 7310, speed: 10
+time: 10.01.13 22:08:25, score: 3526, snakelen: 35, ctr: 4220, speed: 10
+time: 11.01.13 00:16:36, score: 2615, snakelen: 26, ctr: 3310, speed: 10
+snake inited
+time: 11.01.13 17:20:03, score: 2956, snakelen: 29, ctr: 10790, speed: 10
+time: 11.01.13 17:21:40, score: 5769, snakelen: 57, ctr: 6690, speed: 10
+time: 11.01.13 17:25:12, score: 9349, snakelen: 91, ctr: 15100, speed: 10
+time: 11.01.13 17:27:10, score: 5987, snakelen: 59, ctr: 8190, speed: 10
+time: 11.01.13 17:28:47, score: 5161, snakelen: 51, ctr: 6600, speed: 10
+time: 11.01.13 17:37:33, score: 19563, snakelen: 183, ctr: 37970, speed: 10
+time: 11.01.13 18:02:04, score: 9106, snakelen: 89, ctr: 12780, speed: 10
+time: 11.01.13 18:04:00, score: 7002, snakelen: 69, ctr: 8150, speed: 10
+time: 11.01.13 18:04:19, score: 1101, snakelen: 11, ctr: 980, speed: 10
+time: 11.01.13 18:06:30, score: 7623, snakelen: 75, ctr: 9090, speed: 10
+time: 11.01.13 18:07:39, score: 4940, snakelen: 49, ctr: 4590, speed: 10
+time: 11.01.13 18:09:38, score: 7003, snakelen: 69, ctr: 8220, speed: 10
+time: 11.01.13 18:17:35, score: 17739, snakelen: 167, ctr: 34230, speed: 10
+time: 11.01.13 18:24:46, score: 15319, snakelen: 145, ctr: 31090, speed: 10
+time: 11.01.13 18:35:59, score: 5157, snakelen: 51, ctr: 6210, speed: 10
+time: 11.01.13 18:36:21, score: 1202, snakelen: 12, ctr: 1280, speed: 10
+time: 11.01.13 18:42:34, score: 15524, snakelen: 148, ctr: 26910, speed: 10
+time: 11.01.13 18:43:30, score: 4127, snakelen: 41, ctr: 3700, speed: 10
+snake inited
+time: 11.01.13 18:46:43, score: 10115, snakelen: 99, ctr: 11970, speed: 10
+time: 11.01.13 18:47:13, score: 2106, snakelen: 21, ctr: 1630, speed: 10
+time: 11.01.13 18:50:15, score: 9297, snakelen: 91, ctr: 11950, speed: 10
+time: 11.01.13 18:51:30, score: 4742, snakelen: 47, ctr: 4920, speed: 10
+time: 11.01.13 18:54:01, score: 8455, snakelen: 83, ctr: 10280, speed: 10
+time: 11.01.13 18:56:42, score: 8461, snakelen: 83, ctr: 10700, speed: 10
+snake inited
+snake inited
+snake inited
+time: 11.01.13 19:01:52, score: 6790, snakelen: 67, ctr: 7400, speed: 10
+snake inited
+time: 11.01.13 19:05:27, score: 7282, snakelen: 71, ctr: 14150, speed: 10
+snake inited
+time: 11.01.13 19:11:41, score: 5979, snakelen: 59, ctr: 7410, speed: 10
+time: 11.01.13 19:17:22, score: 13033, snakelen: 125, ctr: 23470, speed: 10
+snake inited
+snake inited
+time: 11.01.13 19:21:06, score: 6824, snakelen: 67, ctr: 10200, speed: 10
+time: 11.01.13 19:24:13, score: 9312, snakelen: 91, ctr: 12820, speed: 10
+snake inited
+snake inited
+time: 11.01.13 19:28:10, score: 10166, snakelen: 99, ctr: 14830, speed: 10
+snake inited
+time: 11.01.13 19:29:17, score: 500, snakelen: 5, ctr: 550, speed: 10
+time: 11.01.13 19:29:30, score: 500, snakelen: 5, ctr: 420, speed: 10
+snake inited
+time: 11.01.13 19:33:38, score: 1101, snakelen: 11, ctr: 720, speed: 10
+time: 11.01.13 19:35:46, score: 4136, snakelen: 41, ctr: 4900, speed: 10
+snake inited
+time: 11.01.13 19:42:40, score: 2511, snakelen: 25, ctr: 2490, speed: 10
+snake inited
+snake inited
+time: 11.01.13 20:01:13, score: 5578, snakelen: 55, ctr: 7820, speed: 10
+time: 11.01.13 20:03:18, score: 4543, snakelen: 45, ctr: 5330, speed: 10
+time: 11.01.13 20:06:21, score: 10835, snakelen: 106, ctr: 12200, speed: 10
+time: 11.01.13 20:10:00, score: 10783, snakelen: 105, ctr: 14860, speed: 10
+time: 11.01.13 20:13:05, score: 9694, snakelen: 95, ctr: 11280, speed: 10
+snake inited
+time: 11.01.13 20:26:26, score: 24732, snakelen: 225, ctr: 54580, speed: 10
+time: 11.01.13 20:42:36, score: 4946, snakelen: 49, ctr: 5220, speed: 10
+time: 11.01.13 20:47:36, score: 4152, snakelen: 41, ctr: 7040, speed: 10
+time: 11.01.13 20:48:22, score: 1506, snakelen: 15, ctr: 2350, speed: 10
+time: 11.01.13 20:48:49, score: 500, snakelen: 5, ctr: 600, speed: 10
+time: 11.01.13 21:04:10, score: 2309, snakelen: 23, ctr: 2280, speed: 10
+time: 11.01.13 21:05:35, score: 4946, snakelen: 49, ctr: 5190, speed: 10
+time: 11.01.13 21:17:18, score: 5982, snakelen: 59, ctr: 7690, speed: 10
+time: 11.01.13 21:18:18, score: 3322, snakelen: 33, ctr: 3710, speed: 10
+time: 11.01.13 21:18:58, score: 1907, snakelen: 19, ctr: 2300, speed: 10
+time: 11.01.13 21:20:19, score: 4742, snakelen: 47, ctr: 4960, speed: 10
+time: 11.01.13 21:21:33, score: 2110, snakelen: 21, ctr: 2750, speed: 10
+snake inited
+snake inited
+snake inited
+time: 11.01.13 21:28:42, score: 6153, snakelen: 61, ctr: 4800, speed: 10
+time: 11.01.13 22:29:23, score: 2713, snakelen: 27, ctr: 2690, speed: 10
+snake inited
+time: 11.01.13 23:31:55, score: 300, snakelen: 3, ctr: 440, speed: 10
+snake inited
+time: 11.01.13 23:33:15, score: 300, snakelen: 3, ctr: 440, speed: 10
+time: 11.01.13 23:33:26, score: 1900, snakelen: 19, ctr: 170, speed: 10
+snake inited
+time: 11.01.13 23:34:35, score: 1801, snakelen: 18, ctr: 380, speed: 10
+time: 11.01.13 23:35:52, score: 3534, snakelen: 35, ctr: 5440, speed: 10
+snake inited
+snake inited
+snake inited
+snake inited
+snake inited
+snake inited
+time: 11.01.13 23:53:38, score: 8081, snakelen: 79, ctr: 12650, speed: 10
+snake inited
+time: 12.01.13 00:02:32, score: 7240, snakelen: 71, ctr: 10910, speed: 10
+snake inited
+time: 12.01.13 00:09:58, score: 4962, snakelen: 49, ctr: 6970, speed: 10
+time: 12.01.13 00:12:53, score: 7040, snakelen: 69, ctr: 11230, speed: 10
+time: 12.01.13 00:16:10, score: 7876, snakelen: 77, ctr: 12590, speed: 10
+snake inited
+time: 12.01.13 00:19:04, score: 7440, snakelen: 73, ctr: 10550, speed: 10
+snake inited
+time: 12.01.13 00:24:28, score: 10231, snakelen: 99, ctr: 18420, speed: 10
+snake inited
+time: 12.01.13 00:24:37, score: 500, snakelen: 5, ctr: 310, speed: 10
+time: 12.01.13 00:25:45, score: 700, snakelen: 7, ctr: 570, speed: 10
+snake inited
+time: 12.01.13 00:26:41, score: 1705, snakelen: 17, ctr: 1820, speed: 10
+snake inited
+time: 12.01.13 00:27:38, score: 2109, snakelen: 21, ctr: 2370, speed: 10
+snake inited
+time: 12.01.13 00:28:57, score: 1907, snakelen: 19, ctr: 2030, speed: 10
+snake inited
+time: 12.01.13 00:34:36, score: 11054, snakelen: 107, ctr: 18200, speed: 10
+time: 12.01.13 00:37:46, score: 6627, snakelen: 65, ctr: 10750, speed: 10
+time: 12.01.13 00:41:13, score: 6848, snakelen: 67, ctr: 12210, speed: 10
+time: 12.01.13 00:45:26, score: 7706, snakelen: 75, ctr: 15170, speed: 10
+snake inited
+snake inited
+snake inited
+snake inited
+snake inited
+snake inited
+snake inited
+snake inited
+snake inited
+time: 12.01.13 01:07:58, score: 7268, snakelen: 71, ctr: 13090, speed: 10
+time: 12.01.13 01:09:56, score: 2110, snakelen: 21, ctr: 2670, speed: 10
+time: 12.01.13 01:12:00, score: 3733, snakelen: 37, ctr: 5010, speed: 10
+time: 12.01.13 01:12:20, score: 700, snakelen: 7, ctr: 590, speed: 10
+snake inited
+snake inited
+time: 12.01.13 01:22:21, score: 4965, snakelen: 49, ctr: 7380, speed: 10
+time: 12.01.13 01:26:20, score: 6607, snakelen: 65, ctr: 9080, speed: 10
+snake inited
+snake inited
+time: 12.01.13 01:30:16, score: 6411, snakelen: 63, ctr: 9740, speed: 10
+time: 12.01.13 01:31:29, score: 3726, snakelen: 37, ctr: 3870, speed: 10
+time: 12.01.13 01:34:07, score: 9028, snakelen: 89, ctr: 7940, speed: 10
+time: 12.01.13 01:34:52, score: 1102, snakelen: 11, ctr: 1040, speed: 10
+time: 12.01.13 01:36:58, score: 4148, snakelen: 41, ctr: 6510, speed: 10
+time: 12.01.13 01:46:29, score: 2914, snakelen: 29, ctr: 2690, speed: 10
+time: 12.01.13 01:48:20, score: 6779, snakelen: 67, ctr: 6490, speed: 10
+time: 12.01.13 01:50:32, score: 8415, snakelen: 83, ctr: 7660, speed: 10
+time: 12.01.13 01:51:45, score: 4332, snakelen: 43, ctr: 4160, speed: 10
+time: 12.01.13 02:00:12, score: 20523, snakelen: 195, ctr: 28870, speed: 10
+time: 12.01.13 02:09:50, score: 21519, snakelen: 203, ctr: 33040, speed: 10
+time: 12.01.13 02:21:26, score: 23045, snakelen: 215, ctr: 39550, speed: 10
+time: 12.01.13 02:27:45, score: 14632, snakelen: 141, ctr: 20760, speed: 10
+time: 12.01.13 02:30:25, score: 3731, snakelen: 37, ctr: 4650, speed: 10
+time: 12.01.13 02:30:43, score: 500, snakelen: 5, ctr: 720, speed: 10
+time: 12.01.13 02:31:24, score: 500, snakelen: 5, ctr: 780, speed: 10
+time: 12.01.13 02:31:36, score: 500, snakelen: 5, ctr: 250, speed: 10
+time: 12.01.13 02:31:50, score: 400, snakelen: 4, ctr: 400, speed: 10
+time: 12.01.13 04:00:10, score: 3725, snakelen: 37, ctr: 3750, speed: 10
+time: 12.01.13 04:14:20, score: 3118, snakelen: 31, ctr: 3280, speed: 10
+time: 12.01.13 05:21:06, score: 18068, snakelen: 173, ctr: 24450, speed: 10
+time: 12.01.13 05:27:05, score: 15464, snakelen: 149, ctr: 20830, speed: 10
+time: 12.01.13 05:29:57, score: 10282, snakelen: 101, ctr: 9960, speed: 10
+time: 12.01.13 06:22:21, score: 2308, snakelen: 23, ctr: 1970, speed: 10
+time: 12.01.13 06:24:56, score: 6610, snakelen: 65, ctr: 9360, speed: 10
+time: 12.01.13 08:52:20, score: 2108, snakelen: 21, ctr: 2180, speed: 10
+time: 12.01.13 08:53:06, score: 2511, snakelen: 25, ctr: 2570, speed: 10
+time: 12.01.13 08:56:14, score: 8062, snakelen: 79, ctr: 11300, speed: 10
+time: 12.01.13 09:13:05, score: 5754, snakelen: 57, ctr: 5220, speed: 10
+time: 12.01.13 13:31:41, score: 23056, snakelen: 219, ctr: 29040, speed: 10
+time: 12.01.13 13:45:45, score: 28494, snakelen: 263, ctr: 45900, speed: 10
+time: 12.01.13 14:03:20, score: 3218, snakelen: 32, ctr: 3170, speed: 10
+time: 12.01.13 14:03:56, score: 1103, snakelen: 11, ctr: 1770, speed: 10
+time: 12.01.13 14:04:13, score: 500, snakelen: 5, ctr: 690, speed: 10
+time: 12.01.13 14:11:19, score: 501, snakelen: 5, ctr: 1430, speed: 10
+time: 12.01.13 14:52:04, score: 9675, snakelen: 95, ctr: 10170, speed: 10
+time: 12.01.13 15:58:18, score: 26954, snakelen: 253, ctr: 35980, speed: 10
+time: 12.01.13 17:22:46, score: 7232, snakelen: 71, ctr: 10290, speed: 10
+time: 12.01.13 17:23:56, score: 500, snakelen: 5, ctr: 150, speed: 10
+time: 12.01.13 17:24:10, score: 400, snakelen: 4, ctr: 460, speed: 10
+time: 12.01.13 17:24:27, score: 400, snakelen: 4, ctr: 170, speed: 10
+time: 12.01.13 17:24:36, score: 400, snakelen: 4, ctr: 120, speed: 10
+time: 12.01.13 17:27:57, score: 3112, snakelen: 31, ctr: 2190, speed: 10
+time: 12.01.13 17:29:11, score: 5945, snakelen: 59, ctr: 4230, speed: 10
+time: 12.01.13 17:31:08, score: 8603, snakelen: 85, ctr: 6680, speed: 10
+time: 12.01.13 17:35:19, score: 4339, snakelen: 43, ctr: 5020, speed: 10
+time: 12.01.13 17:38:13, score: 8051, snakelen: 79, ctr: 10550, speed: 10
+time: 12.01.13 17:41:47, score: 8904, snakelen: 87, ctr: 12910, speed: 10
+time: 12.01.13 18:00:35, score: 4738, snakelen: 47, ctr: 4450, speed: 10
+time: 12.01.13 19:18:03, score: 1703, snakelen: 17, ctr: 1010, speed: 10
+time: 12.01.13 19:18:13, score: 500, snakelen: 5, ctr: 170, speed: 10
+time: 12.01.13 19:18:41, score: 501, snakelen: 5, ctr: 1440, speed: 10
+time: 12.01.13 19:19:02, score: 700, snakelen: 7, ctr: 640, speed: 10
+time: 12.01.13 19:19:15, score: 500, snakelen: 5, ctr: 370, speed: 10
+time: 12.01.13 19:20:08, score: 3117, snakelen: 31, ctr: 3040, speed: 10
+time: 12.01.13 19:20:38, score: 1102, snakelen: 11, ctr: 1340, speed: 10
+snake inited
+time: 12.01.13 19:49:03, score: 14395, snakelen: 141, ctr: 11540, speed: 10
+time: 12.01.13 19:52:12, score: 10980, snakelen: 108, ctr: 9200, speed: 10
+time: 12.01.13 20:26:39, score: 16931, snakelen: 163, ctr: 21320, speed: 10
+time: 12.01.13 20:30:38, score: 9954, snakelen: 97, ctr: 14450, speed: 10
+time: 12.01.13 20:31:54, score: 4737, snakelen: 47, ctr: 4440, speed: 10
+time: 12.01.13 20:32:31, score: 2509, snakelen: 25, ctr: 1980, speed: 10
+time: 12.01.13 20:42:25, score: 23034, snakelen: 217, ctr: 33840, speed: 10
+time: 12.01.13 20:44:41, score: 7808, snakelen: 77, ctr: 7770, speed: 10
+time: 12.01.13 20:45:33, score: 1302, snakelen: 13, ctr: 1240, speed: 10
+time: 12.01.13 20:48:00, score: 1503, snakelen: 15, ctr: 1430, speed: 10
+time: 12.01.13 20:51:34, score: 11541, snakelen: 113, ctr: 11760, speed: 10
+time: 12.01.13 20:59:44, score: 8403, snakelen: 83, ctr: 6880, speed: 10
+time: 12.01.13 21:26:29, score: 3517, snakelen: 35, ctr: 2820, speed: 10
+time: 12.01.13 21:33:28, score: 2910, snakelen: 29, ctr: 2070, speed: 10
+time: 12.01.13 21:34:07, score: 2509, snakelen: 25, ctr: 2060, speed: 10
+time: 12.01.13 21:36:16, score: 9425, snakelen: 93, ctr: 7420, speed: 10
+time: 12.01.13 21:38:14, score: 8805, snakelen: 87, ctr: 6680, speed: 10
+time: 12.01.13 21:40:21, score: 9320, snakelen: 92, ctr: 7180, speed: 10
+time: 12.01.13 22:26:33, score: 4125, snakelen: 41, ctr: 3470, speed: 10
+time: 12.01.13 22:28:40, score: 8612, snakelen: 85, ctr: 7290, speed: 10
+time: 12.01.13 22:31:56, score: 12547, snakelen: 123, ctr: 11060, speed: 10
+time: 12.01.13 22:37:22, score: 16629, snakelen: 161, ctr: 18090, speed: 10
+snake inited
+time: 12.01.13 22:38:16, score: 3718, snakelen: 37, ctr: 2760, speed: 10
+time: 12.01.13 22:54:19, score: 35665, snakelen: 327, ctr: 49880, speed: 10
+snake inited
+time: 12.01.13 22:56:11, score: 5947, snakelen: 59, ctr: 4450, speed: 10
+time: 12.01.13 23:00:52, score: 12632, snakelen: 123, ctr: 14850, speed: 10
+snake inited
+time: 12.01.13 23:01:54, score: 3319, snakelen: 33, ctr: 3320, speed: 10
+time: 12.01.13 23:02:36, score: 1706, snakelen: 17, ctr: 2230, speed: 10
+snake inited
+time: 12.01.13 23:10:37, score: 17223, snakelen: 165, ctr: 24120, speed: 10
+snake inited
+time: 12.01.13 23:12:14, score: 5550, snakelen: 55, ctr: 5100, speed: 10
+snake inited
+time: 12.01.13 23:14:18, score: 5344, snakelen: 53, ctr: 4650, speed: 10
+time: 12.01.13 23:16:40, score: 8007, snakelen: 79, ctr: 7490, speed: 10
+time: 12.01.13 23:25:54, score: 21347, snakelen: 203, ctr: 28370, speed: 10
+time: 12.01.13 23:29:19, score: 9689, snakelen: 95, ctr: 10960, speed: 10
+time: 12.01.13 23:32:58, score: 9708, snakelen: 95, ctr: 12050, speed: 10
+snake inited
+snake inited
+time: 12.01.13 23:41:39, score: 12755, snakelen: 123, ctr: 20390, speed: 10
+snake inited
+snake inited
+snake inited
+time: 12.01.13 23:46:06, score: 900, snakelen: 9, ctr: 530, speed: 10
+snake inited
+time: 12.01.13 23:51:21, score: 4734, snakelen: 47, ctr: 4010, speed: 10
+snake inited
+time: 12.01.13 23:54:52, score: 3318, snakelen: 33, ctr: 3090, speed: 10
+time: 12.01.13 23:57:57, score: 7829, snakelen: 77, ctr: 9220, speed: 10
+time: 13.01.13 00:00:21, score: 2123, snakelen: 21, ctr: 6120, speed: 10
+time: 13.01.13 00:03:55, score: 2308, snakelen: 23, ctr: 1960, speed: 10
+snake inited
+time: 13.01.13 00:06:45, score: 2910, snakelen: 29, ctr: 1910, speed: 10
+time: 13.01.13 00:08:41, score: 9197, snakelen: 91, ctr: 5890, speed: 10
+time: 13.01.13 00:21:12, score: 7825, snakelen: 77, ctr: 9000, speed: 10
+time: 13.01.13 00:22:07, score: 2512, snakelen: 25, ctr: 2780, speed: 10
+time: 13.01.13 00:28:09, score: 8993, snakelen: 89, ctr: 5780, speed: 10
+time: 13.01.13 00:29:32, score: 4938, snakelen: 49, ctr: 4330, speed: 10
+snake inited
+snake inited
+snake inited
+time: 13.01.13 00:37:39, score: 4114, snakelen: 41, ctr: 2000, speed: 10
+snake inited
+snake inited
+time: 13.01.13 00:40:17, score: 4114, snakelen: 41, ctr: 1980, speed: 10
+snake inited
+time: 13.01.13 00:43:15, score: 7381, snakelen: 73, ctr: 6130, speed: 10
+time: 13.01.13 00:44:37, score: 5132, snakelen: 51, ctr: 3540, speed: 10
+time: 13.01.13 00:46:47, score: 7802, snakelen: 77, ctr: 7290, speed: 10
+snake inited
+time: 13.01.13 00:48:08, score: 7350, snakelen: 73, ctr: 3790, speed: 10
+time: 13.01.13 00:48:45, score: 3109, snakelen: 31, ctr: 1740, speed: 10
+snake inited
+time: 13.01.13 00:50:19, score: 9782, snakelen: 97, ctr: 4700, speed: 10
+snake inited
+time: 13.01.13 00:52:15, score: 7553, snakelen: 75, ctr: 3890, speed: 10
+snake inited
+time: 13.01.13 00:53:32, score: 6948, snakelen: 69, ctr: 3850, speed: 10
+time: 13.01.13 00:54:28, score: 5528, snakelen: 55, ctr: 2890, speed: 10
+snake inited
+time: 13.01.13 00:56:00, score: 6948, snakelen: 69, ctr: 3890, speed: 10
+snake inited
+time: 13.01.13 00:57:55, score: 6957, snakelen: 69, ctr: 4600, speed: 10
+snake inited
+time: 13.01.13 01:00:51, score: 6957, snakelen: 69, ctr: 4600, speed: 10
+time: 13.01.13 01:01:57, score: 5837, snakelen: 58, ctr: 3540, speed: 10
+time: 13.01.13 01:03:32, score: 7570, snakelen: 75, ctr: 5190, speed: 10
+time: 13.01.13 01:04:24, score: 4923, snakelen: 49, ctr: 2640, speed: 10
+time: 13.01.13 01:05:27, score: 5935, snakelen: 59, ctr: 3290, speed: 10
+time: 13.01.13 01:06:48, score: 6753, snakelen: 67, ctr: 4390, speed: 10
+time: 13.01.13 01:09:01, score: 11246, snakelen: 111, ctr: 7260, speed: 10
+time: 13.01.13 01:10:15, score: 7352, snakelen: 73, ctr: 3950, speed: 10
+time: 13.01.13 01:11:42, score: 8168, snakelen: 81, ctr: 4640, speed: 10
+time: 13.01.13 01:13:26, score: 8990, snakelen: 89, ctr: 5570, speed: 10
+time: 13.01.13 01:14:05, score: 3512, snakelen: 35, ctr: 1940, speed: 10
+time: 13.01.13 01:15:08, score: 6337, snakelen: 63, ctr: 3240, speed: 10
+snake inited
+time: 13.01.13 01:16:37, score: 6909, snakelen: 69, ctr: 4183, speed: 30
+time: 13.01.13 01:17:49, score: 6464, snakelen: 58, ctr: 3439, speed: 2
+time: 13.01.13 01:18:25, score: 7759, snakelen: 75, ctr: 1038, speed: 2
+time: 13.01.13 01:18:45, score: 4986, snakelen: 49, ctr: 528, speed: 2
+time: 13.01.13 01:19:09, score: 6029, snakelen: 59, ctr: 658, speed: 2
+time: 13.01.13 01:19:38, score: 6896, snakelen: 67, ctr: 878, speed: 2
+time: 13.01.13 01:20:22, score: 11637, snakelen: 111, ctr: 1452, speed: 2
+time: 13.01.13 01:20:50, score: 7492, snakelen: 73, ctr: 790, speed: 2
+time: 13.01.13 01:21:21, score: 8350, snakelen: 81, ctr: 928, speed: 2
+snake inited
+snake inited
+time: 13.01.13 01:27:18, score: 6929, snakelen: 69, ctr: 13147, speed: 30
+time: 13.01.13 01:30:10, score: 5819, snakelen: 58, ctr: 10620, speed: 30
+time: 13.01.13 01:34:21, score: 7537, snakelen: 75, ctr: 15570, speed: 30
+time: 13.01.13 01:36:30, score: 4912, snakelen: 49, ctr: 7920, speed: 30
+snake inited
+time: 13.01.13 01:40:00, score: 6921, snakelen: 69, ctr: 7554, speed: 23
+snake inited
+time: 13.01.13 01:43:17, score: 6957, snakelen: 69, ctr: 4620, speed: 10
+time: 13.01.13 01:44:28, score: 5837, snakelen: 58, ctr: 3540, speed: 10
+snake inited
+time: 13.01.13 01:47:29, score: 6957, snakelen: 69, ctr: 4620, speed: 10
+time: 13.01.13 01:48:39, score: 5837, snakelen: 58, ctr: 3540, speed: 10
+time: 13.01.13 01:50:14, score: 7570, snakelen: 75, ctr: 5190, speed: 10
+time: 13.01.13 01:51:05, score: 4923, snakelen: 49, ctr: 2640, speed: 10
+time: 13.01.13 01:52:08, score: 5935, snakelen: 59, ctr: 3290, speed: 10
+snake inited
+snake inited
+time: 13.01.13 01:55:32, score: 6957, snakelen: 69, ctr: 4620, speed: 10
+time: 13.01.13 01:56:39, score: 5837, snakelen: 58, ctr: 3540, speed: 10
+time: 13.01.13 01:58:14, score: 7570, snakelen: 75, ctr: 5190, speed: 10
+snake inited
+time: 13.01.13 02:00:20, score: 8101, snakelen: 80, ctr: 6970, speed: 10
+time: 13.01.13 02:03:18, score: 11100, snakelen: 109, ctr: 10100, speed: 10
+snake inited
+time: 13.01.13 02:05:28, score: 6948, snakelen: 69, ctr: 3910, speed: 10
+time: 13.01.13 02:06:58, score: 9173, snakelen: 91, ctr: 4430, speed: 10
+time: 13.01.13 02:08:40, score: 8983, snakelen: 89, ctr: 5140, speed: 10
+time: 13.01.13 02:09:29, score: 4418, snakelen: 44, ctr: 2340, speed: 10
+time: 13.01.13 02:10:41, score: 6341, snakelen: 63, ctr: 3660, speed: 10
+time: 13.01.13 02:12:27, score: 9187, snakelen: 91, ctr: 5320, speed: 10
+time: 13.01.13 02:13:54, score: 7964, snakelen: 79, ctr: 4480, speed: 10
+time: 13.01.13 02:16:12, score: 6216, snakelen: 62, ctr: 8275, speed: 30
+time: 13.01.13 02:22:06, score: 11578, snakelen: 115, ctr: 21240, speed: 30
+snake inited
+snake inited
+snake inited
+snake inited
+snake inited
+snake inited
+snake inited
+snake inited
+snake inited
+snake inited
+snake inited
+snake inited
+snake inited
+time: 13.01.13 02:43:31, score: 7117, snakelen: 71, ctr: 7724, speed: 30
+snake inited
+snake inited
+time: 13.01.13 02:48:06, score: 6133, snakelen: 61, ctr: 3010, speed: 10
+time: 13.01.13 02:49:29, score: 8566, snakelen: 85, ctr: 4290, speed: 10
+time: 13.01.13 02:50:39, score: 6744, snakelen: 67, ctr: 3620, speed: 10
+snake inited
+time: 13.01.13 02:51:42, score: 2907, snakelen: 29, ctr: 1430, speed: 10
+snake inited
+time: 13.01.13 02:53:55, score: 2907, snakelen: 29, ctr: 1430, speed: 10
+time: 13.01.13 02:54:29, score: 2908, snakelen: 29, ctr: 1530, speed: 10
+time: 13.01.13 02:55:22, score: 2202, snakelen: 22, ctr: 2897, speed: 30
+time: 13.01.13 02:56:17, score: 1501, snakelen: 15, ctr: 3180, speed: 30
+snake inited
+time: 13.01.13 02:57:12, score: 2907, snakelen: 29, ctr: 1430, speed: 10
+time: 13.01.13 02:57:44, score: 2908, snakelen: 29, ctr: 1530, speed: 10
+time: 13.01.13 02:58:09, score: 2204, snakelen: 22, ctr: 1090, speed: 10
+time: 13.01.13 02:58:34, score: 1502, snakelen: 15, ctr: 1060, speed: 10
+time: 13.01.13 02:58:53, score: 1702, snakelen: 17, ctr: 730, speed: 10
+time: 13.01.13 02:59:28, score: 2708, snakelen: 27, ctr: 1720, speed: 10
+time: 13.01.13 02:59:50, score: 1302, snakelen: 13, ctr: 850, speed: 10
+snake inited
+time: 13.01.13 03:00:27, score: 2907, snakelen: 29, ctr: 1430, speed: 10
+time: 13.01.13 03:01:00, score: 2908, snakelen: 29, ctr: 1530, speed: 10
+snake inited
+snake inited
+snake inited
+snake inited
+snake inited
+snake inited
+snake inited
+snake inited
+time: 13.01.13 03:17:36, score: 14700, snakelen: 69, ctr: 3533, speed: 0
+snake inited
+time: 13.01.13 03:22:10, score: 13164, snakelen: 105, ctr: 12686, speed: 3
+time: 13.01.13 03:23:14, score: 14690, snakelen: 127, ctr: 1959, speed: 1
+time: 13.01.13 03:25:57, score: 12266, snakelen: 118, ctr: 7906, speed: 7
+time: 13.01.13 03:28:42, score: 11973, snakelen: 115, ctr: 8232, speed: 7
+time: 13.01.13 03:30:21, score: 9422, snakelen: 92, ctr: 4837, speed: 7
+time: 13.01.13 03:32:42, score: 10661, snakelen: 103, ctr: 7028, speed: 7
+time: 13.01.13 03:34:20, score: 7887, snakelen: 77, ctr: 4865, speed: 7
+time: 13.01.13 03:36:22, score: 9788, snakelen: 95, ctr: 6083, speed: 7
+time: 13.01.13 03:38:18, score: 9567, snakelen: 93, ctr: 5761, speed: 7
+time: 13.01.13 03:39:46, score: 8069, snakelen: 79, ctr: 4284, speed: 7
+time: 13.01.13 03:41:32, score: 9950, snakelen: 97, ctr: 5173, speed: 7
+time: 13.01.13 03:43:46, score: 10847, snakelen: 105, ctr: 6615, speed: 7
+time: 13.01.13 03:45:32, score: 8314, snakelen: 81, ctr: 5285, speed: 7
+time: 13.01.13 03:47:27, score: 9778, snakelen: 95, ctr: 5859, speed: 7
+time: 13.01.13 03:49:33, score: 9713, snakelen: 94, ctr: 6678, speed: 7
+time: 13.01.13 03:51:08, score: 7686, snakelen: 75, ctr: 4963, speed: 7
+time: 13.01.13 03:52:34, score: 7666, snakelen: 75, ctr: 4431, speed: 7
+time: 13.01.13 03:54:29, score: 10197, snakelen: 99, ctr: 6013, speed: 7
+time: 13.01.13 03:56:19, score: 9569, snakelen: 93, ctr: 5796, speed: 7
+time: 13.01.13 03:57:11, score: 4354, snakelen: 43, ctr: 2541, speed: 7
+snake inited
+time: 13.01.13 03:58:23, score: 300, snakelen: 3, ctr: 20, speed: 10
+time: 13.01.13 03:58:42, score: 1501, snakelen: 15, ctr: 660, speed: 10
+time: 13.01.13 03:58:53, score: 500, snakelen: 5, ctr: 230, speed: 10
+snake inited
+time: 13.01.13 04:04:01, score: 11505, snakelen: 113, ctr: 10010, speed: 10
+time: 13.01.13 04:06:14, score: 19522, snakelen: 127, ctr: 6715, speed: 1
+snake inited
+time: 13.01.13 04:23:34, score: 11721, snakelen: 115, ctr: 10590, speed: 10
+time: 13.01.13 04:26:05, score: 13259, snakelen: 127, ctr: 7716, speed: 6
+time: 13.01.13 04:27:24, score: 8895, snakelen: 87, ctr: 3942, speed: 6
+time: 13.01.13 04:29:36, score: 11943, snakelen: 115, ctr: 6750, speed: 6
+time: 13.01.13 04:31:59, score: 13017, snakelen: 125, ctr: 7248, speed: 6
+time: 13.01.13 04:34:06, score: 12028, snakelen: 116, ctr: 6462, speed: 6
+time: 13.01.13 04:38:04, score: 16350, snakelen: 153, ctr: 12012, speed: 6
+snake inited
+time: 13.01.13 04:39:06, score: 4321, snakelen: 43, ctr: 2780, speed: 10
+time: 13.01.13 04:40:17, score: 4932, snakelen: 49, ctr: 3680, speed: 10
+time: 13.01.13 04:41:47, score: 5952, snakelen: 59, ctr: 4940, speed: 10
+snake inited
+snake inited
+time: 13.01.13 04:45:13, score: 9220, snakelen: 91, ctr: 7300, speed: 10
+snake inited
+time: 13.01.13 04:47:32, score: 3115, snakelen: 31, ctr: 2800, speed: 10
+time: 13.01.13 04:56:15, score: 14945, snakelen: 143, ctr: 27093, speed: 11
+time: 13.01.13 05:05:30, score: 15394, snakelen: 147, ctr: 30696, speed: 12
+snake inited
+snake inited
+snake inited
+snake inited
+snake inited
+snake inited
+snake inited
+snake inited
+snake inited
+time: 13.01.13 05:50:32, score: 9220, snakelen: 91, ctr: 7300, speed: 10
+snake inited
+snake inited
+snake inited
+snake inited
+snake inited
+snake inited
+snake inited
+snake inited
+snake inited
+snake inited
+snake inited
+time: 13.01.13 06:40:47, score: 9220, snakelen: 91, ctr: 7290, speed: 10
+snake inited
+time: 13.01.13 06:44:57, score: 8606, snakelen: 85, ctr: 6870, speed: 10
+time: 13.01.13 06:47:40, score: 9435, snakelen: 93, ctr: 7990, speed: 10
+time: 13.01.13 06:50:15, score: 8424, snakelen: 83, ctr: 8240, speed: 10
+snake inited
+time: 13.01.13 06:51:35, score: 4729, snakelen: 47, ctr: 3410, speed: 10
+snake inited
+snake inited
+time: 13.01.13 06:56:08, score: 9533, snakelen: 47, ctr: 3214, speed: 0
+time: 13.01.13 06:56:50, score: 9389, snakelen: 87, ctr: 990, speed: 1
+time: 13.01.13 06:57:23, score: 8303, snakelen: 79, ctr: 639, speed: 1
+time: 13.01.13 06:57:55, score: 8090, snakelen: 77, ctr: 634, speed: 1
+time: 13.01.13 06:58:18, score: 5478, snakelen: 53, ctr: 421, speed: 1
+time: 13.01.13 06:58:57, score: 9869, snakelen: 93, ctr: 765, speed: 1
+time: 13.01.13 06:59:24, score: 6352, snakelen: 61, ctr: 517, speed: 1
+time: 13.01.13 06:59:50, score: 6752, snakelen: 65, ctr: 485, speed: 1
+time: 13.01.13 07:00:12, score: 5054, snakelen: 49, ctr: 395, speed: 1
+time: 13.01.13 07:00:48, score: 8761, snakelen: 83, ctr: 695, speed: 1
+time: 13.01.13 07:01:28, score: 9478, snakelen: 89, ctr: 813, speed: 1
+time: 13.01.13 07:02:06, score: 10040, snakelen: 95, ctr: 711, speed: 1
+time: 13.01.13 07:02:26, score: 4419, snakelen: 43, ctr: 348, speed: 1
+time: 13.01.13 07:03:07, score: 10537, snakelen: 99, ctr: 805, speed: 1
+time: 13.01.13 07:03:46, score: 9227, snakelen: 87, ctr: 758, speed: 1
+time: 13.01.13 07:04:08, score: 5263, snakelen: 51, ctr: 401, speed: 1
+time: 13.01.13 07:04:43, score: 8299, snakelen: 79, ctr: 632, speed: 1
+time: 13.01.13 07:05:15, score: 7464, snakelen: 71, ctr: 641, speed: 1
+time: 13.01.13 07:06:03, score: 10480, snakelen: 97, ctr: 1006, speed: 1
+time: 13.01.13 07:06:49, score: 13138, snakelen: 101, ctr: 940, speed: 0
+time: 13.01.13 07:09:19, score: 8405, snakelen: 83, ctr: 8244, speed: 12
+time: 13.01.13 07:11:47, score: 8801, snakelen: 87, ctr: 7610, speed: 12
+snake inited
+time: 13.01.13 07:18:07, score: 6130, snakelen: 61, ctr: 15402, speed: 30
+time: 13.01.13 07:19:19, score: 4216, snakelen: 41, ctr: 3406, speed: 5
+snake inited
+snake inited
+snake inited
+snake inited
+time: 13.01.13 07:39:58, score: 2514, snakelen: 25, ctr: 3290, speed: 10
+time: 13.01.13 07:44:34, score: 5018, snakelen: 50, ctr: 11164, speed: 30
+snake inited
+time: 13.01.13 07:46:15, score: 4729, snakelen: 47, ctr: 3410, speed: 10
+snake inited
+time: 13.01.13 07:46:53, score: 4702, snakelen: 47, ctr: 1458, speed: 30
+snake inited
+time: 13.01.13 07:47:47, score: 4702, snakelen: 47, ctr: 1893, speed: 30
+snake inited
+snake inited
+time: 13.01.13 07:51:25, score: 4704, snakelen: 47, ctr: 2859, speed: 30
+snake inited
+time: 13.01.13 07:52:38, score: 4702, snakelen: 47, ctr: 1924, speed: 30
+snake inited
+time: 13.01.13 07:53:18, score: 4701, snakelen: 47, ctr: 1008, speed: 30
+snake inited
+time: 13.01.13 07:55:11, score: 4702, snakelen: 47, ctr: 1396, speed: 28
+snake inited
+time: 13.01.13 07:56:06, score: 4703, snakelen: 47, ctr: 2123, speed: 30
+snake inited
+time: 13.01.13 07:58:59, score: 4701, snakelen: 47, ctr: 1194, speed: 30
+snake inited
+time: 13.01.13 08:09:01, score: 16243, snakelen: 113, ctr: 5469, speed: 1
+snake inited
+time: 13.01.13 08:09:57, score: 12252, snakelen: 113, ctr: 1054, speed: 1
+time: 13.01.13 08:13:48, score: 14933, snakelen: 145, ctr: 9971, speed: 9
+time: 13.01.13 08:17:48, score: 11313, snakelen: 111, ctr: 12526, speed: 12
+snake inited
+time: 13.01.13 08:25:03, score: 11632, snakelen: 113, ctr: 8832, speed: 8
+snake inited
+snake inited
+time: 13.01.13 08:30:15, score: 13148, snakelen: 127, ctr: 6175, speed: 6
+time: 13.01.13 08:31:25, score: 12433, snakelen: 121, ctr: 1380, speed: 3
+snake inited
+snake inited
+time: 13.01.13 08:37:42, score: 12743, snakelen: 127, ctr: 10592, speed: 30
+snake inited
+time: 13.01.13 08:50:01, score: 12421, snakelen: 121, ctr: 14610, speed: 10
+snake inited
+time: 13.01.13 08:58:16, score: 94677, snakelen: 143, ctr: 17565, speed: 0
+snake inited
+snake inited
+snake inited
+time: 13.01.13 09:06:50, score: 10137, snakelen: 101, ctr: 2952, speed: 15
+snake inited
+time: 13.01.13 09:09:26, score: 10657, snakelen: 101, ctr: 1655, speed: 2
+time: 13.01.13 09:11:05, score: 13534, snakelen: 124, ctr: 2746, speed: 2
+time: 13.01.13 09:13:18, score: 16111, snakelen: 143, ctr: 3800, speed: 2
+snake inited
+snake inited
+snake inited
+snake inited
+snake inited
+snake inited
+snake inited
+time: 13.01.13 09:32:12, score: 12811, snakelen: 125, ctr: 13720, speed: 10
+time: 13.01.13 09:37:52, score: 20361, snakelen: 157, ctr: 14847, speed: 3
+time: 13.01.13 09:42:31, score: 23860, snakelen: 181, ctr: 3978, speed: 1
+snake inited
+time: 13.01.13 09:49:48, score: 12500, snakelen: 125, ctr: 12212, speed: 50
+snake inited
+time: 13.01.13 10:00:47, score: 10000, snakelen: 100, ctr: 930, speed: 50
+time: 13.01.13 10:03:17, score: 11700, snakelen: 117, ctr: 1852, speed: 50
+snake inited
+snake inited
+time: 13.01.13 10:17:52, score: 10100, snakelen: 101, ctr: 3489, speed: 50
+snake inited
+time: 13.01.13 10:23:37, score: 14500, snakelen: 145, ctr: 8877, speed: 50
+snake inited
+snake inited
+time: 13.01.13 10:26:05, score: 14500, snakelen: 145, ctr: 5711, speed: 50
+snake inited
+time: 13.01.13 10:30:53, score: 10900, snakelen: 109, ctr: 5856, speed: 50
+snake inited
+time: 13.01.13 10:32:31, score: 10900, snakelen: 109, ctr: 4613, speed: 50
+snake inited
+time: 13.01.13 10:36:44, score: 10900, snakelen: 109, ctr: 7181, speed: 50
+time: 13.01.13 10:39:03, score: 14300, snakelen: 143, ctr: 6087, speed: 50
+snake inited
+time: 13.01.13 10:41:19, score: 10900, snakelen: 109, ctr: 6441, speed: 50
+time: 13.01.13 10:43:44, score: 14300, snakelen: 143, ctr: 6669, speed: 50
+time: 13.01.13 10:45:47, score: 15900, snakelen: 159, ctr: 4111, speed: 50
+time: 13.01.13 10:47:23, score: 11900, snakelen: 119, ctr: 3775, speed: 50
+time: 13.01.13 10:49:27, score: 11500, snakelen: 115, ctr: 6502, speed: 50
+snake inited
+time: 13.01.13 10:59:15, score: 10900, snakelen: 109, ctr: 5445, speed: 50
+snake inited
+time: 13.01.13 11:01:04, score: 10911, snakelen: 109, ctr: 3351, speed: 30
+time: 13.01.13 11:02:44, score: 14317, snakelen: 143, ctr: 3828, speed: 30
+time: 13.01.13 11:04:33, score: 15917, snakelen: 159, ctr: 3325, speed: 30
+snake inited
+time: 13.01.13 11:07:04, score: 10105, snakelen: 101, ctr: 1780, speed: 30
+snake inited
+time: 13.01.13 11:11:47, score: 10914, snakelen: 109, ctr: 4041, speed: 30
+time: 13.01.13 11:13:29, score: 14318, snakelen: 143, ctr: 3966, speed: 30
+time: 13.01.13 11:15:40, score: 15923, snakelen: 159, ctr: 4611, speed: 30
+time: 13.01.13 11:16:48, score: 11909, snakelen: 119, ctr: 2525, speed: 30
+time: 13.01.13 11:17:42, score: 11506, snakelen: 115, ctr: 1764, speed: 30
+time: 13.01.13 11:19:13, score: 14314, snakelen: 143, ctr: 3116, speed: 30
+time: 13.01.13 11:20:40, score: 14713, snakelen: 147, ctr: 2967, speed: 30
+time: 13.01.13 11:22:42, score: 16118, snakelen: 161, ctr: 3482, speed: 30
+snake inited
+time: 13.01.13 11:30:41, score: 12845, snakelen: 125, ctr: 15180, speed: 10
+snake inited
+time: 13.01.13 11:37:59, score: 900, snakelen: 9, ctr: 430, speed: 10
+time: 13.01.13 11:40:36, score: 3312, snakelen: 33, ctr: 2160, speed: 10
+time: 13.01.13 11:40:48, score: 500, snakelen: 5, ctr: 160, speed: 10
+snake inited
+time: 13.01.13 11:49:24, score: 11102, snakelen: 109, ctr: 10210, speed: 10
+time: 13.01.13 12:01:10, score: 14725, snakelen: 143, ctr: 16380, speed: 10
+snake inited
+time: 13.01.13 12:06:52, score: 1702, snakelen: 17, ctr: 752, speed: 10
+snake inited
+time: 13.01.13 12:12:57, score: 700, snakelen: 7, ctr: 380, speed: 10
+time: 13.01.13 12:13:27, score: 1702, snakelen: 17, ctr: 816, speed: 10
+snake inited
+snake inited
+time: 13.01.13 12:20:09, score: 500, snakelen: 5, ctr: 200, speed: 10
+time: 13.01.13 12:21:32, score: 5913, snakelen: 59, ctr: 1260, speed: 10
+snake inited
+snake inited
+time: 13.01.13 12:26:55, score: 3514, snakelen: 35, ctr: 2200, speed: 10
+time: 13.01.13 12:27:30, score: 901, snakelen: 9, ctr: 1200, speed: 10
+time: 13.01.13 12:28:57, score: 3713, snakelen: 37, ctr: 2010, speed: 10
+time: 13.01.13 12:35:06, score: 15683, snakelen: 151, ctr: 21240, speed: 10
+time: 13.01.13 12:36:58, score: 1903, snakelen: 19, ctr: 1136, speed: 10
+snake inited
+time: 13.01.13 12:39:40, score: 5929, snakelen: 59, ctr: 2760, speed: 10
+snake inited
+time: 13.01.13 12:44:02, score: 300, snakelen: 3, ctr: 41, speed: 10
+time: 13.01.13 12:44:17, score: 600, snakelen: 6, ctr: 304, speed: 10
+time: 13.01.13 12:44:28, score: 300, snakelen: 3, ctr: 56, speed: 10
+time: 13.01.13 12:44:44, score: 500, snakelen: 5, ctr: 350, speed: 10
+time: 13.01.13 12:45:28, score: 2604, snakelen: 26, ctr: 1030, speed: 10
+time: 13.01.13 12:49:22, score: 12802, snakelen: 125, ctr: 13330, speed: 10
+time: 13.01.13 12:54:05, score: 13575, snakelen: 132, ctr: 15660, speed: 10
+time: 13.01.13 13:00:20, score: 12206, snakelen: 119, ctr: 14180, speed: 10
+time: 13.01.13 13:07:48, score: 14954, snakelen: 145, ctr: 17230, speed: 10
+time: 13.01.13 13:14:38, score: 14142, snakelen: 137, ctr: 17770, speed: 10
+snake inited
+SOLO time: 13.01.13 13:15:28, score: 500, snakelen: 5, ctr: 280, speed: 10
+SOLO time: 13.01.13 13:17:16, score: 506, snakelen: 5, ctr: 6960, speed: 10
+snake inited
+SOLO time: 13.01.13 13:46:57, score: 500, snakelen: 5, ctr: 210, speed: 10
+DEMO time: 13.01.13 13:50:37, score: 11972, snakelen: 117, ctr: 12830, speed: 10
+PLACE time: 13.01.13 13:52:15, score: 3313, snakelen: 33, ctr: 2220, speed: 10
+DEMO time: 13.01.13 13:55:24, score: 11310, snakelen: 111, ctr: 10420, speed: 10
