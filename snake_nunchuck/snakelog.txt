@@ -917,3 +917,50 @@ SOLO time: 13.01.13 13:46:57, score: 500, snakelen: 5, ctr: 210, speed: 10
 DEMO time: 13.01.13 13:50:37, score: 11972, snakelen: 117, ctr: 12830, speed: 10
 PLACE time: 13.01.13 13:52:15, score: 3313, snakelen: 33, ctr: 2220, speed: 10
 DEMO time: 13.01.13 13:55:24, score: 11310, snakelen: 111, ctr: 10420, speed: 10
+DEMO time: 13.01.13 14:04:30, score: 14546, snakelen: 141, ctr: 17430, speed: 10
+snake inited
+DEMO time: 13.01.13 14:09:13, score: 300, snakelen: 3, ctr: 33, speed: 10
+snake inited
+DEMO time: 13.01.13 14:18:24, score: 11102, snakelen: 109, ctr: 10210, speed: 10
+DEMO time: 13.01.13 14:24:14, score: 14725, snakelen: 143, ctr: 16380, speed: 10
+snake inited
+DEMO time: 13.01.13 14:31:00, score: 1702, snakelen: 17, ctr: 907, speed: 10
+PLACE time: 13.01.13 14:31:49, score: 2503, snakelen: 25, ctr: 870, speed: 10
+SOLO time: 13.01.13 14:33:40, score: 4961, snakelen: 49, ctr: 6880, speed: 10
+SOLO time: 13.01.13 14:33:53, score: 500, snakelen: 5, ctr: 410, speed: 10
+PLACE time: 13.01.13 14:36:08, score: 5234, snakelen: 52, ctr: 3640, speed: 10
+DEMO time: 13.01.13 14:36:38, score: 1301, snakelen: 13, ctr: 504, speed: 10
+PLACE time: 13.01.13 14:40:15, score: 8281, snakelen: 82, ctr: 5470, speed: 10
+DEMO time: 13.01.13 14:46:28, score: 11955, snakelen: 117, ctr: 12030, speed: 10
+DEMO time: 13.01.13 14:49:00, score: 9043, snakelen: 89, ctr: 8890, speed: 10
+DEMO time: 13.01.13 14:54:35, score: 14552, snakelen: 141, ctr: 17650, speed: 10
+snake inited
+SOLO time: 13.01.13 14:55:38, score: 500, snakelen: 5, ctr: 130, speed: 10
+snake inited
+SOLO time: 13.01.13 15:00:29, score: 500, snakelen: 5, ctr: 190, speed: 10
+snake inited
+SOLO time: 13.01.13 15:10:09, score: 500, snakelen: 5, ctr: 180, speed: 10
+snake inited
+SOLO time: 13.01.13 15:22:15, score: 500, snakelen: 5, ctr: 130, speed: 10
+snake inited
+SOLO time: 13.01.13 15:25:04, score: 500, snakelen: 5, ctr: 150, speed: 10
+snake inited
+SOLO time: 13.01.13 15:35:15, score: 300, snakelen: 3, ctr: 246, speed: 10
+snake inited
+snake inited
+SOLO time: 13.01.13 15:43:42, score: 1301, snakelen: 13, ctr: 670, speed: 10
+PLACE time: 13.01.13 15:45:10, score: 300, snakelen: 3, ctr: 0, speed: 10
+PLACE time: 13.01.13 15:47:09, score: 6951, snakelen: 69, ctr: 4090, speed: 10
+DEMO time: 13.01.13 15:52:38, score: 10897, snakelen: 107, ctr: 10180, speed: 10
+DEMO time: 13.01.13 15:58:52, score: 16514, snakelen: 159, ctr: 21260, speed: 10
+snake inited
+DEMO time: 13.01.13 16:06:10, score: 11102, snakelen: 109, ctr: 10210, speed: 10
+DEMO time: 13.01.13 16:11:14, score: 14725, snakelen: 143, ctr: 16380, speed: 10
+DEMO time: 13.01.13 16:19:34, score: 16546, snakelen: 159, ctr: 22370, speed: 10
+DEMO time: 13.01.13 16:26:13, score: 10903, snakelen: 107, ctr: 10467, speed: 10
+DEMO time: 13.01.13 16:32:01, score: 311, snakelen: 3, ctr: 20776, speed: 10
+DEMO time: 13.01.13 16:32:30, score: 300, snakelen: 3, ctr: 256, speed: 10
+PLACE time: 13.01.13 16:33:59, score: 2001, snakelen: 20, ctr: 520, speed: 10
+SOLO time: 13.01.13 16:35:10, score: 2911, snakelen: 29, ctr: 2265, speed: 10
+DEMO time: 13.01.13 16:45:22, score: 14594, snakelen: 141, ctr: 19280, speed: 10
+DEMO time: 13.01.13 16:53:11, score: 16781, snakelen: 161, ctr: 23290, speed: 10

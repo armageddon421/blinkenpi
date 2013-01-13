@@ -24,6 +24,8 @@ int place_nom();
 void display_score();
 bool isonsnake(int x);
 bool isonsnake2(int x, int len);
+void welcome();
+
 
 //extern struct effect eflist[EFFECT_BUFSIZE];
 
@@ -432,6 +434,128 @@ void countdown(int mode){
 	}
 }
 
+void addscore(int score){
+	
+	int selected = 0;
+	int lastpressed = 0;
+	char names[10][4];
+	int scores[10];
+	char buf[20];
+	int i;
+	int ani = 0;
+	double scrollpos = 0.0;
+	
+	FILE *scorefile=fopen("scores.txt","rt");
+
+		
+	i=0;	
+		
+	while(fgets(buf, 20, scorefile) != NULL)
+   	{	
+		int j;
+		for(j=0;j<3;j++){
+	 		names[i][j] = buf[j];
+		}
+		names[i][3] = 0;
+		sscanf (buf+3, "%d", &(scores[i]));
+		i++;
+   	}
+	fclose(scorefile);
+	
+	int slot = -1;
+	
+	for(i=0;i<10;i++){
+		if(score > scores[i]){
+			slot = i;
+			break;
+		}
+	}
+	if(slot == -1){
+		return;
+	}
+	
+	for(i=9;i>slot;i--){
+		scores[i] = scores[i-1];
+		strncpy(names[i], names[i-1],3);
+		names[i][3] = 0;
+	}
+	
+	char newname[4] = "AAA";
+	
+	while(nunchuck_read()){
+	nunchuck_init();
+	//nunchuck_read();
+	mvprintw(6,0,"nunchuck reinited\n");
+	}
+	while(buttonC && buttonZ){
+		while(nunchuck_read()){
+			nunchuck_init();
+			//nunchuck_read();
+			mvprintw(6,0,"nunchuck reinited\n");
+		}
+		if (joyY-YCENTER < -JOYDEADZONE){
+			if(!lastpressed){
+				newname[selected]++;
+				if(newname[selected] > 'Z') newname[selected] = 'A';
+				lastpressed = 1;
+			}
+		}
+		else if (joyY-YCENTER > JOYDEADZONE){
+			if(!lastpressed){
+				newname[selected]--;
+				if(newname[selected] < 'A') newname[selected] = 'Z';
+				lastpressed = 1;
+			}
+		}
+		else if(joyX-XCENTER > JOYDEADZONE){
+			if(!lastpressed){
+				selected++;
+				selected = selected % 3;
+				lastpressed = 1;
+			}
+		}
+		else if(joyX-XCENTER < -JOYDEADZONE){
+			if(!lastpressed){
+				selected--;
+				if (selected < 0) selected += 3;
+				lastpressed = 1;
+			}
+		}
+		else lastpressed = 0;
+		
+		
+		sprintf(buf, "%s", newname);	
+		int i=0;
+		while(buf[i]){
+			draw_char(i*6+6, buf[i]);
+			i++;
+		}
+		
+		for(i=0;i<6;i++){
+			setpixel(i+selected*6+6,0,127,127,0);
+			setpixel(i+selected*6+6,HEIGHT-1,127,127,0);
+		}
+		blit();
+		update();
+		ani++;
+	}
+	
+	scores[slot] = score;
+	strcpy(names[slot],newname);
+	
+	
+	scorefile=fopen("scores.txt","wt");
+	for(i=0;i<10;i++){
+		fprintf(scorefile, "%s%d\n", names[i], scores[i]);
+		
+		sprintf(buf, "%s%d\n", names[i], scores[i]);
+		dlog(buf);
+	}	
+	
+	
+	fclose(scorefile);	
+}
+
 
 void halloffame(){
 	
@@ -443,6 +567,8 @@ void halloffame(){
 	int i;
 	int ani = 0;
 	double scrollpos = 0.0;
+	
+	int acctr = 0;
 	
 	FILE *scorefile=fopen("scores.txt","rt");
 
@@ -472,6 +598,11 @@ void halloffame(){
 			//nunchuck_read();
 			mvprintw(6,0,"nunchuck reinited\n");
 		}
+		
+		if (accelZ < 560) acctr++;
+		else acctr = 0;	
+		if (acctr > 50) return;
+		
 		if (joyY-YCENTER < -JOYDEADZONE){
 			if(!lastpressed){
 				selected++;
@@ -489,11 +620,11 @@ void halloffame(){
 		else lastpressed = 0;
 
 		if(joyX-XCENTER > JOYDEADZONE){
-			scrollpos += (joyX-XCENTER-JOYDEADZONE)/10.0;
-			if(scrollpos > 6) scrollpos = 6.0;
+			scrollpos += (joyX-XCENTER-JOYDEADZONE)/30.0;
+			if(scrollpos > 6*5) scrollpos = 30.0;
 		}
 		if(joyX-XCENTER < -JOYDEADZONE){
-			scrollpos += (joyX-XCENTER+JOYDEADZONE)/10.0;
+			scrollpos += (joyX-XCENTER+JOYDEADZONE)/30.0;
 			if(scrollpos < 0) scrollpos = 0.0;
 		}
 		
@@ -507,11 +638,11 @@ void halloffame(){
 		
 		setpixel(2,0,20,20,0);
 		setpixel(WIDTH-1-2,0,20,20,0);
-		setpixel(scrollpos/6.0*(WIDTH-6),0,20,20,0);
+		setpixel(scrollpos/30.0*(WIDTH-7)+3,0,120,120,0);
 		
 		setpixel(2,HEIGHT-1,20,20,0);
 		setpixel(WIDTH-1-2,HEIGHT-1,20,20,0);
-		setpixel(scrollpos/6.0*(WIDTH-6),HEIGHT-1,20,20,0);
+		setpixel(scrollpos/30.0*(WIDTH-7)+3,HEIGHT-1,120,120,0);
 		
 		setpixel(0,selected+1,127,127,0);
 		setpixel(WIDTH-1,selected+1,127,127,0);
@@ -525,12 +656,12 @@ void halloffame(){
 }
 
 
-void settings(){
+int settings(){
 	
 	int selected = 0;
 	char names[4][8] = {"SOLO", "PLACE", "DEMO", "SCORE"};
 	int lastpressed = 0;
-	
+	int acctr = 0;	
 		
 	while(nunchuck_read()){
 	nunchuck_init();
@@ -543,6 +674,14 @@ void settings(){
 			//nunchuck_read();
 			mvprintw(6,0,"nunchuck reinited\n");
 		}
+		
+		if (accelZ < 560) acctr++;
+		else acctr = 0;	
+		if (acctr > 50){
+			return 1;
+		}
+		
+		
 		if (joyX-XCENTER > JOYDEADZONE){
 			if(!lastpressed){
 				selected++;
@@ -564,6 +703,20 @@ void settings(){
 			draw_char(i*6+(WIDTH-strlen(names[selected])*6)/2, names[selected][i]);
 			i++;
 		}
+		for(i=0;i<WIDTH;i++){
+			setpixel(i,0,5,5,0);
+			setpixel(i,HEIGHT-1,5,5,0);
+		}
+		for(i=1;i<HEIGHT-1;i++){
+			setpixel(0,i,5,5,0);
+			setpixel(WIDTH-1,i,5,5,0);
+		}
+		for(i=0;i<8;i++){
+			setpixel(i+8*selected,0,100,100,0);
+			setpixel(i+8*selected,HEIGHT-1,100,100,0);
+		}
+
+
 		blit();
 		update();
 	}
@@ -583,79 +736,79 @@ void settings(){
 		usleep(1000*300);
 		halloffame();
 		usleep(1000*300);
-		settings();
+		return settings();
 	}
-		
+	return 0;	
 }
 
 void welcome(){
-	int n,j;
-	int t = 0;
-	double d=0;
-	char *text;
-	int acctr = 0;
+	do{
+		int n,j;
+		int t = 0;
+		double d=0;
+		char *text;
+		int acctr = 0;
 
-	time_t current_time;
-	struct tm * time_info;
-	char timeString[8];
+		time_t current_time;
+		struct tm * time_info;
+		char timeString[8];
 
 
 
-	while(nunchuck_read()){
-		nunchuck_init();
-		//nunchuck_read();
-		mvprintw(6,0,"nunchuck reinited\n");
-	}
-	while(buttonC && buttonZ && acctr < 50){
 		while(nunchuck_read()){
 			nunchuck_init();
 			//nunchuck_read();
 			mvprintw(6,0,"nunchuck reinited\n");
 		}
+		while(buttonC && buttonZ && acctr < 50){
+			while(nunchuck_read()){
+				nunchuck_init();
+				//nunchuck_read();
+				mvprintw(6,0,"nunchuck reinited\n");
+			}
 
-		if(accelZ>600){
-			acctr++;
-		}
-		else acctr = 0;
-		
-		if(t%800 < 100){
-			text = "PLAY";
-			d = 3.03;
-		}
-		else if(t%800 < 200) {
-			text = "SNAKE";
-			d = 0.03;
-		}	
-		else{
-			time(&current_time);
-			time_info = localtime(&current_time);
-			strftime(timeString, 8, "%H:%M", time_info);
+			if(accelZ>600){
+				acctr++;
+			}
+			else acctr = 0;
 			
-			if(current_time%2){
-				timeString[2] = ' ';
+			if(t%800 < 100){
+				text = "PLAY";
+				d = 3.03;
 			}
-			if(current_time%200==0){
-				bot = 1;
-				demo = 1;
-				return;	
+			else if(t%800 < 200) {
+				text = "SNAKE";
+				d = 0.03;
+			}	
+			else{
+				time(&current_time);
+				time_info = localtime(&current_time);
+				strftime(timeString, 8, "%H:%M", time_info);
+				
+				if(current_time%2){
+					timeString[2] = ' ';
+				}
+				if(current_time%200==0){
+					bot = 1;
+					demo = 1;
+					return;	
+				}
+				text = timeString;
 			}
-			text = timeString;
+			
+			n=0;
+			while(text[n] && n < 6){
+				draw_char(n*6+d, text[n]);
+				n++;
+			}
+			blit();
+			update();
+			
+			t++;
 		}
-		
-		n=0;
-		while(text[n] && n < 6){
-			draw_char(n*6+d, text[n]);
-			n++;
-		}
-		blit();
-		update();
-		
-		t++;
-	}
-	demo = 0;
-	bot = 0;
-	
-	settings();
+		demo = 0;
+		bot = 0;
+	}while(settings());
 		
 	countdown(0);
 
@@ -711,6 +864,11 @@ void loose2(){
 	}
 	calc_score();
 	display_score();
+	if(!bot && !demo){
+		usleep(1000*300);
+		addscore(score);
+		usleep(1000*300);
+	}
 	welcome();
 }
 
@@ -1025,6 +1183,10 @@ int main(void){
 			if(!buttonC && tick_delay > 0) tick_delay--; 
 			if(!buttonZ && tick_delay < 30) tick_delay++; 
 		}*/
+		if(!buttonC){
+			loose2();
+			snakesetup();
+		}
 				
 		//setpixel((accelX-512)/10+WIDTH/2,(accelY-512)/20+6,127,32,16);
 
